@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(:version => 20090606184710) do
     t.string   "aid"
     t.string   "address"
     t.string   "title"
-    t.text     "description"
+    t.text     "description",     :limit => 1024
     t.string   "service_type_id"
     t.string   "token"
     t.datetime "created_at"
