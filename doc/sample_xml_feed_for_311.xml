@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcst="http://dc.gov/dcstat/types/1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:georss="http://www.georss.org/georss" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <id>http://dc.gov/dcstat/rss/src</id>
+  <title>Service Request Live Data Feed</title>
+  <updated>2009-06-06T13:01:40-04:00</updated>
+  <generator uri="http://data.octo.dc.gov/feeds" version="1.1">OCTO DCStat DataFeeds application</generator>
+  <link href="http://dcstat.octo.dc.gov" rel="alternate" type="text/html"/>
+  <link href="http://data.octo.dc.gov/feeds/src/src_current.xml" rel="self" type="application/atom+xml"/>
+  <rights>public domain</rights>
+  <author>
+    <name>District of Columbia Mayor's Call Center</name>
+  </author>
+  <contributor>
+    <name>Office of the Chief Technology Officer, Citywide Data Warehouse</name>
+  </contributor>
+  <contributor>
+    <name>Office of the City Administrator</name>
+  </contributor> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2115849</id>
+    <title>ServiceRequest ID:2115849</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2115849">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2115849</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2115849</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2115849]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0278]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - NO TIME FOR COIN]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-05-05T15:57:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[CLOSED]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[2]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[METER FOUND WORKING]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[2009-05-07T05:58:00-04:00]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-05-11T15:57:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[Close Ticket. ]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-05-05T15:57:15-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:35:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[-100]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[-100]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[348291]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[NONE]]></dcst:ward>
+        <dcst:anc><![CDATA[NONE]]></dcst:anc>
+        <dcst:smd><![CDATA[NONE]]></dcst:smd>
+        <dcst:district><![CDATA[NONE]]></dcst:district>
+        <dcst:psa><![CDATA[NONE]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[NONE]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">0 0</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2135283</id>
+    <title>ServiceRequest ID:2135283</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2135283">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2135283</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2135283</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2135283]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-05-22T16:11:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OVERDUE OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-03T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-05-22T16:11:47-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:45:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[3712 GARFIELD STREET NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.92735062228990</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.07412877165270</geo:long>
+        <dcst:zipcode><![CDATA[20007]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[262622]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[105503]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[105503]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3C]]></dcst:anc>
+        <dcst:smd><![CDATA[3C08]]></dcst:smd>
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[204]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[14]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.92735062228990 -77.07412877165270</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2140377</id>
+    <title>ServiceRequest ID:2140377</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2140377">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2140377</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2140377</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2140377]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-05-28T16:30:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OVERDUE OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-05T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-05-28T16:30:27-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:10:03-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[224 WEBSTER STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.94340373452730</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.00289476132450</geo:long>
+        <dcst:zipcode><![CDATA[20011]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[49578]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[19931]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[19931]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        <dcst:smd><![CDATA[5C12]]></dcst:smd>
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[405]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[19]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.94340373452730 -77.00289476132450</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2143543</id>
+    <title>ServiceRequest ID:2143543</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2143543">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2143543</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2143543</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2143543]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-01T14:17:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-09T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-01T14:17:11-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:00:03-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[1557 FORT DUPONT STREET SE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.86772517100690</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.94553167991260</geo:long>
+        <dcst:zipcode><![CDATA[20020]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[60795]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[36883]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[36883]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7B]]></dcst:anc>
+        <dcst:smd><![CDATA[7B07]]></dcst:smd>
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[605]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[34]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.86772517100690 -76.94553167991260</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2147652</id>
+    <title>ServiceRequest ID:2147652</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2147652">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2147652</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2147652</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2147652]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0274]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - COIN JAM]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-04T11:16:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[5]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-10T11:16:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-04T11:16:27-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:40:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[PARKING METER IN0633NW: 600 BLOCK INDIANA AVE NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.894137482306</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.021135318455</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[0]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[433721]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[371437]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6C]]></dcst:anc>
+        <dcst:smd><![CDATA[6C09]]></dcst:smd>
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[101]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.894137482306 -77.021135318455</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149561</id>
+    <title>ServiceRequest ID:2149561</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149561">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149561</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149561</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149561]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0272]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - OUT OF ORDER]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-05T16:04:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[2]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-11T16:04:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-05T16:04:59-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:30:04-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[PARKING METER 070401NW: 400 BLOCK 7TH ST NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.89500607008130</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.02184005435360</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[0]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[427868]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[365419]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6C]]></dcst:anc>
+        <dcst:smd><![CDATA[6C09]]></dcst:smd>
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[101]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[8]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.89500607008130 -77.02184005435360</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149790</id>
+    <title>ServiceRequest ID:2149790</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149790">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149790</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149790</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149790]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0278]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - NO TIME FOR COIN]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T07:08:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[2]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-11T07:08:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T07:08:54-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:15:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[-100]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[-100]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[348291]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[NONE]]></dcst:ward>
+        <dcst:anc><![CDATA[NONE]]></dcst:anc>
+        <dcst:smd><![CDATA[NONE]]></dcst:smd>
+        <dcst:district><![CDATA[NONE]]></dcst:district>
+        <dcst:psa><![CDATA[NONE]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[NONE]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">0 0</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149850</id>
+    <title>ServiceRequest ID:2149850</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149850">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149850</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149850</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149850]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0361]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[SIDEWALK REPAIR]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[SWR]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[SIDEWALK REPAIR]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T11:51:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T11:51:10-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:00:03-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[7512 EASTERN AVENUE NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.98201921225710</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.02365803755760</geo:long>
+        <dcst:zipcode><![CDATA[20012]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[251127]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[94041]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[94041]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[4]]></dcst:ward>
+        <dcst:anc><![CDATA[4B]]></dcst:anc>
+        <dcst:smd><![CDATA[4B01]]></dcst:smd>
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[401]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[17]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.98201921225710 -77.02365803755760</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149853</id>
+    <title>ServiceRequest ID:2149853</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149853">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149853</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149853</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149853]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T11:55:50-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-11T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T11:55:50-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:00:04-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[237 R STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.91238344304910</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.00235896248090</geo:long>
+        <dcst:zipcode><![CDATA[20002]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[47912]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[32401]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[32401]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        <dcst:smd><![CDATA[5C05]]></dcst:smd>
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[501]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[21]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.91238344304910 -77.00235896248090</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149854</id>
+    <title>ServiceRequest ID:2149854</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149854">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149854</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149854</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149854]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0459]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[TREE REMOVAL]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[TREE]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[TREES]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:00:20-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-11-23T12:00:20-05:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:00:20-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:10:03-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[239 R STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.91240568612890</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.00228383244620</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[0]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[268145]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[268332]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        <dcst:smd><![CDATA[5C05]]></dcst:smd>
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[501]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[21]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.91240568612890 -77.00228383244620</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149855</id>
+    <title>ServiceRequest ID:2149855</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149855">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149855</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149855</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149855]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0441]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[TRASH COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[TCM]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[TRASH COLLECTION REQUESTED]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:02:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-08T12:02:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:02:27-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:10:04-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[2246 S STREET SE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.86842870453970</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.97314635331690</geo:long>
+        <dcst:zipcode><![CDATA[20020]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[49417]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[20634]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[20634]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8A]]></dcst:anc>
+        <dcst:smd><![CDATA[8A01]]></dcst:smd>
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[607]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[34]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.86842870453970 -76.97314635331690</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149856</id>
+    <title>ServiceRequest ID:2149856</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149856">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149856</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149856</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149856]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:11:52-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-15T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:11:52-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:15:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[5129 CHEVY CHASE PARKWAY NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.95634730525220</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.07155207300690</geo:long>
+        <dcst:zipcode><![CDATA[20008]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[264348]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[107493]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[107493]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3G]]></dcst:anc>
+        <dcst:smd><![CDATA[3G07]]></dcst:smd>
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[201]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[10]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.95634730525220 -77.07155207300690</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149857</id>
+    <title>ServiceRequest ID:2149857</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149857">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149857</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149857</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149857]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0451]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[TRASH CONTAINER]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[SUPER]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[SUPERCAN]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:13:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-19T12:13:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:13:38-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:15:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[1213 LAMONT STREET NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.93093212024980</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.02911785506710</geo:long>
+        <dcst:zipcode><![CDATA[20010]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[231052]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[74047]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[74047]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[1]]></dcst:ward>
+        <dcst:anc><![CDATA[1A]]></dcst:anc>
+        <dcst:smd><![CDATA[1A06]]></dcst:smd>
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[302]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[2]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.93093212024980 -77.02911785506710</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149858</id>
+    <title>ServiceRequest ID:2149858</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149858">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149858</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149858</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149858]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:16:07-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-11T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:16:07-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:20:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[4306 13TH STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.94218222701930</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.98855645878040</geo:long>
+        <dcst:zipcode><![CDATA[20017]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[23851]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[14077]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[14077]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5A]]></dcst:anc>
+        <dcst:smd><![CDATA[5A05]]></dcst:smd>
+        <dcst:district><![CDATA[FOURTH]]></dcst:district>
+        <dcst:psa><![CDATA[405]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[20]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.94218222701930 -76.98855645878040</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149859</id>
+    <title>ServiceRequest ID:2149859</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149859">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149859</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149859</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149859]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0279]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - MULTISPACE REPAIR]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:18:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-09T12:18:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:18:24-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:20:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[19TH STREET NW & L STREET NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.90374461289820</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.043456364816</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[0]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[207520]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[207520]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2B]]></dcst:anc>
+        <dcst:smd><![CDATA[2B06]]></dcst:smd>
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[208]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[6]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.90374461289820 -77.043456364816</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149860</id>
+    <title>ServiceRequest ID:2149860</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149860">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149860</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149860</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149860]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:19:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-12T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:19:41-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:20:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[617 Q STREET NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.91128693463960</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.02072947216220</geo:long>
+        <dcst:zipcode><![CDATA[20001]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[238542]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[81182]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[81182]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[2]]></dcst:ward>
+        <dcst:anc><![CDATA[2C]]></dcst:anc>
+        <dcst:smd><![CDATA[2C02]]></dcst:smd>
+        <dcst:district><![CDATA[THIRD]]></dcst:district>
+        <dcst:psa><![CDATA[308]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[7]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.91128693463960 -77.02072947216220</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149861</id>
+    <title>ServiceRequest ID:2149861</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149861">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149861</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149861</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149861]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0460]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[TREE TRIMMING]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[TREE]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[TREES]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:20:34-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-11-23T12:20:34-05:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:20:34-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:25:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[5725 MACARTHUR BOULEVARD NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.93341246717540</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.10958290455560</geo:long>
+        <dcst:zipcode><![CDATA[20016]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[275787]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[117964]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[117964]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3D]]></dcst:anc>
+        <dcst:smd><![CDATA[3D04]]></dcst:smd>
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[205]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[13]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.93341246717540 -77.10958290455560</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149862</id>
+    <title>ServiceRequest ID:2149862</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149862">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149862</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149862</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149862]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:21:51-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-10T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:21:51-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:25:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[1217 D STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.89459329881880</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.98948812237760</geo:long>
+        <dcst:zipcode><![CDATA[20002]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[71341]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[45533]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[45533]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6A]]></dcst:anc>
+        <dcst:smd><![CDATA[6A05]]></dcst:smd>
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[103]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[25]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.89459329881880 -76.98948812237760</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149863</id>
+    <title>ServiceRequest ID:2149863</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149863">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149863</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149863</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149863]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0476]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[YARD WASTE]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[YW]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[YARD WASTE]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:29:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-12T12:29:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:29:04-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:30:04-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[323 13TH STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.894453983987</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.98807651014930</geo:long>
+        <dcst:zipcode><![CDATA[20002]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[37904]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[24377]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[24377]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6A]]></dcst:anc>
+        <dcst:smd><![CDATA[6A05]]></dcst:smd>
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[103]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[25]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.894453983987 -76.98807651014930</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149864</id>
+    <title>ServiceRequest ID:2149864</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149864">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149864</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149864</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149864]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0406]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[STREET REPAIR]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[STR]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[STREET REPAIR]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:32:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:32:15-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:35:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[5912 CLAY STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.89309235144260</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.91566466786590</geo:long>
+        <dcst:zipcode><![CDATA[20019]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[6072]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[5272]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[5272]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[7]]></dcst:ward>
+        <dcst:anc><![CDATA[7C]]></dcst:anc>
+        <dcst:smd><![CDATA[7C05]]></dcst:smd>
+        <dcst:district><![CDATA[SIXTH]]></dcst:district>
+        <dcst:psa><![CDATA[602]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[31]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.89309235144260 -76.91566466786590</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149865</id>
+    <title>ServiceRequest ID:2149865</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149865">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149865</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149865</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149865]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0278]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - NO TIME FOR COIN]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:36:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-11T12:36:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:36:45-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:40:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[-100]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[-100]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[348291]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[NONE]]></dcst:ward>
+        <dcst:anc><![CDATA[NONE]]></dcst:anc>
+        <dcst:smd><![CDATA[NONE]]></dcst:smd>
+        <dcst:district><![CDATA[NONE]]></dcst:district>
+        <dcst:psa><![CDATA[NONE]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[NONE]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">0 0</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149866</id>
+    <title>ServiceRequest ID:2149866</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149866">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149866</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149866</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149866]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0261]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING-ENFORCEMENT]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[PARK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING ENFORCEMENT]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:42:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-10T12:42:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:42:56-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:45:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[705 MALCOLM X AVENUE SE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.84489998694480</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.99552705767450</geo:long>
+        <dcst:zipcode><![CDATA[20032]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[151683]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[59637]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[59637]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[8]]></dcst:ward>
+        <dcst:anc><![CDATA[8C]]></dcst:anc>
+        <dcst:smd><![CDATA[8C03]]></dcst:smd>
+        <dcst:district><![CDATA[SEVENTH]]></dcst:district>
+        <dcst:psa><![CDATA[705]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[39]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.84489998694480 -76.99552705767450</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149867</id>
+    <title>ServiceRequest ID:2149867</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149867">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149867</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149867</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149867]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0031]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[BULK]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[BULK COLLECTION]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:43:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-15T00:00:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:43:31-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:50:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[3712 GARFIELD STREET NW]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.92735062228990</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.07412877165270</geo:long>
+        <dcst:zipcode><![CDATA[20007]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[262622]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[105503]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[105503]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[3]]></dcst:ward>
+        <dcst:anc><![CDATA[3C]]></dcst:anc>
+        <dcst:smd><![CDATA[3C08]]></dcst:smd>
+        <dcst:district><![CDATA[SECOND]]></dcst:district>
+        <dcst:psa><![CDATA[204]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[14]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.92735062228990 -77.07412877165270</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149868</id>
+    <title>ServiceRequest ID:2149868</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149868">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149868</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149868</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149868]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0422]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[SUPERCAN DELIVERY]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[SUPER]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[SUPERCAN]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:44:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DPW]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-19T12:44:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:44:01-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:50:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[2005 KEARNY STREET NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.93096302436710</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-76.97563092715280</geo:long>
+        <dcst:zipcode><![CDATA[20018]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[53004]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[22400]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[22400]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5A]]></dcst:anc>
+        <dcst:smd><![CDATA[5A10]]></dcst:smd>
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[502]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[22]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.93096302436710 -76.97563092715280</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149869</id>
+    <title>ServiceRequest ID:2149869</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149869">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149869</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149869</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149869]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0272]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - OUT OF ORDER]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:45:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-11T12:45:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[Close Ticket.]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:45:17-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:50:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[27 TODD PLACE NE]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.91611435494620</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.00800606341780</geo:long>
+        <dcst:zipcode><![CDATA[20002]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[45375]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[31571]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[31571]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[5]]></dcst:ward>
+        <dcst:anc><![CDATA[5C]]></dcst:anc>
+        <dcst:smd><![CDATA[5C06]]></dcst:smd>
+        <dcst:district><![CDATA[FIFTH]]></dcst:district>
+        <dcst:psa><![CDATA[501]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[21]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.91611435494620 -77.00800606341780</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149870</id>
+    <title>ServiceRequest ID:2149870</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149870">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149870</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149870</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149870]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0497]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PEDESTRIAN WALK/DON'T WALK MALFUNCTIONING]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[TS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[TRAFFIC SIGNALS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:49:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-08T12:49:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:49:16-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:50:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[4TH STREET SE & EAST CAPITOL STREET]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">38.88980798328440</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-77.00057932420050</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[0]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[143393]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[143393]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[6]]></dcst:ward>
+        <dcst:anc><![CDATA[6C]]></dcst:anc>
+        <dcst:smd><![CDATA[6C07]]></dcst:smd>
+        <dcst:district><![CDATA[FIRST]]></dcst:district>
+        <dcst:psa><![CDATA[102]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[26]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">38.88980798328440 -77.00057932420050</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry> <entry>
+    <id>http://data.octo.dc.gov/feeds/src/atom/2149871</id>
+    <title>ServiceRequest ID:2149871</title>
+    <updated>2009-06-06T13:01:40-04:00</updated>
+    <content type="text/xml">
+      <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+        <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2149871">
+          <dc:date>2009-06-06T13:01:40-04:00</dc:date>
+          <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+          <dc:title>dcst:ServiceRequest</dc:title>
+          <dc:subject>ServiceRequest ID:2149871</dc:subject>
+          <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+          <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+          <dc:format>text/xml</dc:format>
+          <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2149871</dc:identifier>
+          <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+          <dc:language>en</dc:language>
+          <dc:coverage>District of Columbia</dc:coverage>
+          <dc:rights>public domain</dc:rights>
+          <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+          <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
+          <!--  accrual periodicity is in seconds units -->
+          <dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
+          <dcterms:modified>2009-06-06T13:01:40-04:00</dcterms:modified>
+        </rdf:Description>
+        <dcst:servicerequestid><![CDATA[2149871]]></dcst:servicerequestid>
+        <dcst:servicepriority><![CDATA[NO VALUE ASSIGNED]]></dcst:servicepriority>
+        <dcst:servicecode><![CDATA[S0279]]></dcst:servicecode>
+        <dcst:servicecodedescription><![CDATA[PARKING METER - MULTISPACE REPAIR]]></dcst:servicecodedescription>
+        <dcst:servicetypecode><![CDATA[METERS]]></dcst:servicetypecode>
+        <dcst:servicetypecodedescription><![CDATA[PARKING METERS]]></dcst:servicetypecodedescription>
+        <dcst:serviceorderdate><![CDATA[2009-06-06T12:50:00-04:00]]></dcst:serviceorderdate>
+        <dcst:serviceorderstatus><![CDATA[OPEN]]></dcst:serviceorderstatus>
+        <dcst:servicecallcount><![CDATA[1]]></dcst:servicecallcount>
+        <dcst:agencyabbreviation><![CDATA[DDOT]]></dcst:agencyabbreviation>
+        <dcst:inspectionflag><![CDATA[N]]></dcst:inspectionflag>
+        <dcst:inspectiondate><![CDATA[]]></dcst:inspectiondate>
+        <dcst:resolution><![CDATA[NO VALUE ASSIGNED]]></dcst:resolution>
+        <dcst:resolutiondate><![CDATA[]]></dcst:resolutiondate>
+        <dcst:serviceduedate><![CDATA[2009-06-09T12:50:00-04:00]]></dcst:serviceduedate>
+        <dcst:servicenotes><![CDATA[]]></dcst:servicenotes>
+        <dcst:parentservicerequestid><![CDATA[0]]></dcst:parentservicerequestid>
+        <dcst:adddate><![CDATA[2009-06-06T12:50:20-04:00]]></dcst:adddate>
+        <dcst:lastmodifieddate><![CDATA[2009-06-06T12:55:02-04:00]]></dcst:lastmodifieddate>
+        <dcst:siteaddress><![CDATA[]]></dcst:siteaddress>
+        <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:lat>
+        <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:long>
+        <dcst:zipcode><![CDATA[]]></dcst:zipcode>
+        <dcst:maraddressrepositoryid><![CDATA[-100]]></dcst:maraddressrepositoryid>
+        <dcst:dcstataddresskey><![CDATA[-100]]></dcst:dcstataddresskey>
+        <dcst:dcstatlocationkey><![CDATA[348291]]></dcst:dcstatlocationkey>
+        <dcst:ward><![CDATA[NONE]]></dcst:ward>
+        <dcst:anc><![CDATA[NONE]]></dcst:anc>
+        <dcst:smd><![CDATA[NONE]]></dcst:smd>
+        <dcst:district><![CDATA[NONE]]></dcst:district>
+        <dcst:psa><![CDATA[NONE]]></dcst:psa>
+        <dcst:neighborhoodcluster><![CDATA[NONE]]></dcst:neighborhoodcluster>
+        <dcst:hotspot2006name><![CDATA[NONE]]></dcst:hotspot2006name>
+        <dcst:hotspot2005name><![CDATA[NONE]]></dcst:hotspot2005name>
+        <dcst:hotspot2004name><![CDATA[NONE]]></dcst:hotspot2004name>
+        <georss:point xmlns:georss="http://www.georss.org/georss">0 0</georss:point>
+      </dcst:ServiceRequest>
+    </content>
+  </entry></feed>
