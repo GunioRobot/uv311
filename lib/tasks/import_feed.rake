@@ -1,5 +1,5 @@
 require 'open-uri'
-require 'rexml/document'
+require 'hpricot'
 
 namespace :data do
   namespace :import do
@@ -10,8 +10,8 @@ namespace :data do
       
       rss.items.each do |item|
         content = item[:content]
-        doc = REXML::Document.new(content)
-       
+        doc = Hpricot(content)
+        puts (doc/"dcst:servicecodedescription").innerHTML
       end
 
     end
