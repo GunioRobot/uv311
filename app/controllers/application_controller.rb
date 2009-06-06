@@ -7,4 +7,15 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+  
+  
+  # use it like this in controllers:
+  #     before_filter :adjust_format_for_mobile, :only => ["show", "index"]
+  #
+  # For more help: http://contentfree.com/giving-back/is-it-mobile
+  def adjust_format_for_mobile
+    include IsItMobile::ForRails
+  end
+
+  
 end
