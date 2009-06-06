@@ -1,4 +1,3 @@
-require 'dcgov'
 namespace :data do
 	namespace :import do
 
