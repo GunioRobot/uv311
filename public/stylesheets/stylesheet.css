@@ -98,7 +98,7 @@ caption {background:#eee;}
 #company-logo {background:#fff;padding:10px;text-align:center;margin:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
 
 /* grid.css */
-.container {width:940px;margin:0 auto;padding:0 0 20px 0;}
+.container {width:940px;margin:0 auto;padding: 20px 0;}
 .container.cb {background:url(/images/default/layout/core/container-bottom.gif) bottom}
 .container.cb span.container-top {background:url(/images/default/layout/core/container-top.gif) top; height:16px;overflow:hidden;width:940px;display:block;}
 .popup-container {min-width:540px;margin:0 auto;padding:20px;background:white;}
@@ -348,8 +348,8 @@ table.privacy tr td {padding: 0; margin:0; }
 label {font-weight:bold;color:#356490;display:block;}
 fieldset {padding:1.4em;margin:0 0 1.5em 0;border:1px solid #ccc;}
 legend {font-weight:bold;font-size:1.2em;}
-input[type=text],input[type=password],input.text, input.title,input.year, textarea, select {margin:0.5em 0;border:3px solid #d2cdcd;}
-input[type=text]:focus,input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {border:3px solid #356490;}
+input[type=text],input[type=password],input.text, input.title,input.year, textarea, select {margin:0.5em 0;border:3px solid #53739D;}
+input[type=text]:focus,input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {border:3px solid #53739D;}
 input[type=text], input[type=password] {padding:5px;}
 input.text, input.title {width:224px;padding:5px;}
 input.year, input.title {width:80px;padding:5px;}
@@ -427,4 +427,6 @@ li.icon.r {background-position:95% 40%;}
 .linkedin {background:url(/images/default/components/icons/linkedin.png) no-repeat 0 0;}
 .acrobat {background:url(/images/default/components/icons/acrobat.png) no-repeat 0 0;}
 
-
+#search {background:#003975;}
+#search label {color:#fff}
+#search #issue {width:300px;}

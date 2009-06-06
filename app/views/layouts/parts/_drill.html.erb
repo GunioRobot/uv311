@@ -1,12 +1,11 @@
-<%= search %>
 <% if search %>
-<div id="search">
-  <div class="container">
-      <% render :partial=> '/issues/search' %>
+  <div id="search">
+    <div class="container pup">
+        <%=render :partial=> '/issues/search' %>
+    </div>
   </div>
-</div>
 <% end %>
-<div id="content" class="span-38">
+<div class="container" id="wrapper">
     <div id="<%=left_column_id%>" class="span-<%=(columns-1)%> prepend-1 append-1">
       <% # errors here -%>
       <%= render_flash_messages %>
@@ -16,6 +15,5 @@
       
       <%# if local is not passed partial is ignored %>
       <%= render :partial => quad_column %>
-      
     </div>
 </div>

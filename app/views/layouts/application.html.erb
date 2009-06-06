@@ -15,9 +15,9 @@
   <body>
     <%= render :partial => 'layouts/header' %>
     <% if RAILS_ENV=='development' %><div id="grid"></div><% end %>
-    <div class="container" id="wrapper">
+
           <%= yield %>
-    </div>
+
     <%= render :partial => 'layouts/footer' %>
   </body>
 </html>
