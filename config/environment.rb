@@ -21,6 +21,9 @@ Rails::Initializer.run do |config|
   # config.gem "aws-s3", :lib => "aws/s3"
   config.gem "is_it_mobile", :version => "1.0.1"
   config.gem "authlogic", :version => ">=2.0.13", :source => "http://gems.rubyforge.org"
+  config.gem "dambalah-dcgov", :version => "0.0.2", :lib => 'dcgov', 
+                               :source => "http://gems.rubyforge.org"
+  config.gem "simple-rss", :version => "1.2"
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
