@@ -4,4 +4,7 @@ class IssuesController < ApplicationController
   
   end 
   
+  def update
+    
+  end
 end
