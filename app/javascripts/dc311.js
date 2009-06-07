@@ -6,6 +6,19 @@ $("p").live("click", function(){
 
 jQuery(document).ready(function() {
   jQuery("#issue").autocomplete(autocomplete);
+<<<<<<< HEAD:app/javascripts/dc311.js
+     jQuery('a[rel*=facebox]').facebox();
+       jQuery('a[rel*=vote]').bind('click', function() {
+           $.ajax({
+             type: 'POST',
+             url: this.attr('href'),
+             success: function(){console.log('good boy')}
+           });
+           
+           return false;
+      });
+});
+=======
   jQuery('a[rel*=facebox]').facebox()
 })
 
@@ -35,6 +48,7 @@ console.log('asdfasf')
 
 
 
+>>>>>>> 67e6ea7f9c1b091be81603d2fdfee7efd9b6793b:app/javascripts/dc311.js
 
 // function uv311_loadScript(url) {
 //   var script = document.createElement('script');
