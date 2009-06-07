@@ -1,0 +1,12 @@
+<% for issue in @issues %>
+<div class="issue">
+  <div class="tally span-3" >
+    <label>230</label>
+    <span>Agree</span>
+  </div>
+  <div class="span-18">
+    <h3><%= issue.title %></h3>
+  <p><%= issue.description %></p>
+  </div>
+</div>
+<% end %>
