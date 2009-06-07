@@ -11,7 +11,33 @@ namespace :data do
       rss.items.each do |item|
         content = item[:content]
         doc = Hpricot(content)
-        service_code_description = (doc/"dcst:servicecodedescription").innerHTML        
+        
+        issue = Issue.new        
+        
+        # Title
+        service_code_description = (doc/"dcst:servicecodedescription").innerHTML.downcase.titleize
+        service_date = (doc/"dcst:serviceorderdate").innerHTML[0...10]       
+        issue.title = service_code_description + service_date        
+        
+        #address
+        service_address = (doc/"dcst:siteaddress").innerHTML + " Washington, DC " 
+                   + (doc/"dcst:zipcode").innerHTML
+        issue.address = service_address
+        
+        # description
+        service_code_description
+        order_date
+        district = (doc/"dcst:district").innerHTML + " District"
+        issue.description = service_code_description + 
+                           "\nDistrict:" + district + 
+                           "\nAddress: " + service_address +
+                           "\nDate: " + service_date
+        
+        # status
+        service_status = (doc/"dcst:serviceorderstatus").innerHTML
+        issue.status = service_status
+        
+        issue.save                
       end
 
     end
