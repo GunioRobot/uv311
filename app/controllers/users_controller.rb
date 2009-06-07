@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
-    
+
     respond_to do |format|
       format.js {render :layout => 'modal.html.erb'} # new.html.erb
       format.xml  { render :xml => @user }
