@@ -24,4 +24,11 @@ class IssuesController < ApplicationController
     end
   end
   
+  def show
+    @issue = Issue.find(params[:id])
+    @comments = Comment.find(:all, :conditions => ["issue_id = ?", @issue.id], :order => "created_at DESC")
+    @comment = Comment.new
+    @comment.issue_id = @issue.id
+  end
+
 end
