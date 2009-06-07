@@ -5,13 +5,12 @@
 #
 #  id           :integer(4)      not null, primary key
 #  311_id       :string(255)
-#  service_type :string(255)
-#  service_code :string(255)
 #  name         :string(255)
 #  prompt       :text
 #  required     :boolean
-#  type         :string
+#  attribute_type         :string
 #  width        :integer
+#  item_list    :text
 #  service_type_id :integer
 #  
 #
