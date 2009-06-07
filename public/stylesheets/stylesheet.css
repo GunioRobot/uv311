@@ -36,7 +36,7 @@ p {margin:0 0 1.5em;font-family:;color:#7F7F7F;}
 p img {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
 p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
 a:focus, a:hover {color:#000;}
-a {color:#5D85A5;text-decoration:none;border-bottom:1px dotted;_font-size:.95em;}
+a {color:#003975;text-decoration:none;}
 a.x {border:none;}
 
 blockquote {margin:1.5em;color:#666;font-style:italic;}
@@ -412,7 +412,9 @@ a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
 #search label {color:#fff;font-size:2em;line-height:10px;}
 #search #issue {width:470px;height:30px;font-size:1.5em;padding:10px 0 0 10px;color:#003975;}
 #search #search_button {padding:10px 0 0 0;}
-#rightcol {background:#ccc;margin-top:-200px;min-height:800px;}
+#rightcol {background:url(/images/bg_rightcol.png) repeat-x top;margin-top:-200px;min-height:800px;}
+#rightcol ul li a {font-size:1.1em;font-weight:700;line-height:14px;display:block}
+
 
 .issue {padding:10px 0 ;overflow:hidden;}
 .issue h3 {line-height:24px;}

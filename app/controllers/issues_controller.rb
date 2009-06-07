@@ -7,4 +7,6 @@ class IssuesController < ApplicationController
   def update
     
   end
+
+  
 end
