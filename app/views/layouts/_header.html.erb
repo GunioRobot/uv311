@@ -4,6 +4,11 @@
   </div>
   <div class="span-8 pup">
     <img src="images/dc_logo.gif"/>
+   <% if current_user %>  
+     <%= link_to "Logout", logout_path %>  
+   <% else %>  
+     <%= link_to "Register", new_user_path %>  
+     <%= link_to "Log in", login_path %>  
+   <% end %>  
   </div>
 </div>
-
