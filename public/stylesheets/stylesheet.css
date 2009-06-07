@@ -99,6 +99,18 @@ caption {background:#eee;}
 .text-white {color: white;} 
 #company-logo {background:#fff;padding:10px;text-align:center;margin:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
 
+/*simple list- positions, view_sheet */
+ul.simple-list{margin:0;padding:0;}
+ul.simple-list li{list-style:none;margin:0;padding:10px 10px 0 0;overflow:hidden;}
+ul.simple-list.left li {float:left;}
+ul.simple-list.check li {background:url(/images/default/layout/core/check.png) no-repeat; padding:0 0 15px 30px;}
+ul.simple-list.check li.x {background:none;padding:0 0 15px 0;font-weight:bold;}
+ul.simple-list.positions {margin-bottom:25px;}
+ul.simple-list.positions a{display:inline-block;;border:none;margin:0;}
+ul.simple-list.positions span{font-size:.8em;color:#333;margin-top:-5px;display:inline-block;}
+
+
+
 /* grid.css */
 .container {width:940px;margin:0 auto;padding: 20px 0;}
 .container.cb {background:url(/images/default/layout/core/container-bottom.gif) bottom}
@@ -400,7 +412,7 @@ a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
 #search label {color:#fff;font-size:2em;line-height:10px;}
 #search #issue {width:470px;height:30px;font-size:1.5em;padding:10px 0 0 10px;color:#003975;}
 #search #search_button {padding:10px 0 0 0;}
-#rightcol {background:#ccc;margin-top:-100px;min-height:800px;}
+#rightcol {background:#ccc;margin-top:-200px;min-height:800px;}
 
 .issue {padding:10px 0 ;overflow:hidden;}
 .issue h3 {line-height:24px;}
