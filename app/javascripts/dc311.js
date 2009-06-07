@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
 
 
 $("a[rel=vote]").live('click', function() {
-alert('asdfasf')
+console.log('asdfasf')
      $.ajax({
        type: 'POST',
        url: this.attr('href'),

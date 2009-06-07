@@ -39,7 +39,7 @@ private
     end
   end
   
-  def logged_in?
+  def require_user?
     # p "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     if current_user.nil?
       # p current_user.inspect
