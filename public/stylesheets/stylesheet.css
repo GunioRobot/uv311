@@ -393,49 +393,16 @@ a:hover.voteno {background-position: 0% -25%;}
 .voteyes {background:url(/images/default/components/icons/icon-voteYes.gif) no-repeat;background-position: 0% 110%;}
 a:hover.voteyes {background-position: 0% -4%;}
 a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
-a.green { background:url(/images/default/layout/core/icon_green.png) no-repeat;}
-a.orange {background:url(/images/default/layout/core/icon_orange.png) no-repeat;}
-.delete {background:url(/images/default/components/icons/icon_delete.png) no-repeat;}
-.subtract {background:url(/images/default/components/icons/icon_subtract.png) no-repeat;}
-.add {background:url(/images/default/components/icons/icon_add.png) no-repeat;}
-.mail {background:url(/images/default/components/icons/icon_mail.png) no-repeat;}
-.mail_org {background:url(/images/default/components/icons/icon_mail_org.png) no-repeat;}
 
-.green_check{background:url(/images/default/components/icons/icon_green_check.png) no-repeat;}
-.green_check_box{background:url(/images/default/components/icons/icon_green_check_box.png) no-repeat;}
-.green_box{background:url(/images/default/components/icons/icon_green_box.png) no-repeat;}
-
-.forward {background:url(/images/default/components/icons/icon_forward.png) no-repeat;}
-.backward {background:url(/images/default/components/icons/icon_backward.png) no-repeat;}
-.edit {background:url(/images/default/components/icons/icon_edit.png) no-repeat;}
-
-.plus {background:url(/images/default/components/icons/icon_plus.png) no-repeat;}
-.minus {background:url(/images/default/components/icons/icon_minus.png) no-repeat;}
-
-.toggleTip {background:url(/images/default/components/icons/icon_plus.png) no-repeat;}
-.toggleTip.off {background:url(/images/default/components/icons/icon_minus.png) no-repeat;}
-.toggleTip.none {background:none;}
-
-li.icon.r {background-position:95% 40%;}
-.locked, .private {background:url(/images/default/components/icons/icon_locked.png) no-repeat;}
-.unlocked, .everyone {background:url(/images/default/components/icons/icon_unlocked.png) no-repeat;}
-.keyed, .limited {background:url(/images/default/components/icons/icon_lock_key.png) no-repeat;}
-.locked_x {background:url(/images/default/components/icons/icon_locked_x.png) no-repeat;}
-.unlocked_x {background:url(/images/default/components/icons/icon_unlocked_x.png) no-repeat;}
-.keyed_x {background:url(/images/default/components/icons/icon_lock_key_x.png) no-repeat;}
-.facebook {background:url(/images/default/components/icons/facebook.png) no-repeat 0 0;}
-.twitter {background:url(/images/default/components/icons/twitter.png) no-repeat 0 0;}
-.linkedin {background:url(/images/default/components/icons/linkedin.png) no-repeat 0 0;}
-.acrobat {background:url(/images/default/components/icons/acrobat.png) no-repeat 0 0;}
 
 #search {background:#003975;}
-#search label {color:#fff}
+#search label {color:#fff;font-size:2em;line-height:10px;}
 #search #issue {width:470px;height:30px;font-size:1.5em;padding:10px 0 0 10px;color:#003975;}
 
 #rightcol {background:#ccc;margin-top:-100px;min-height:800px;}
 
 .issue {padding:10px 0 ;overflow:hidden;}
 .issue h3 {line-height:24px;}
-.tally {background:url(/images/bg_tag.gif) no-repeat;height:71px;padding:15px 0 0 8px}
+.tally {background:url(/images/bg_tag.gif) no-repeat;height:71px;padding:21px 0 0 8px}
 .tally label {font-size:1.5em;line-height:15px;padding:0 0 0 5px}
 .tally span {display:block;font-size:1.2em;}
