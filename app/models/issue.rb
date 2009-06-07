@@ -19,4 +19,5 @@ class Issue < ActiveRecord::Base
   belongs_to :user, :class_name => 'User', :foreign_key => 'user_id'
   belongs_to :service_type, :class_name => 'ServiceType', :foreign_key => 'service_type_id'
   has_many :comments
+  has_many :votes, :class_name => 'Vote'
 end
