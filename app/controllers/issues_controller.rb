@@ -13,4 +13,8 @@ class IssuesController < ApplicationController
     ###save user_id, issue_id to new vote
     ##return new vote count for issue
   end
+  
+  def show
+    @issue = Issue.find(params[:id], :include => :comments)
+  end
 end

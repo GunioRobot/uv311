@@ -11,7 +11,7 @@ namespace :data do
       rss.items.each do |item|
         content = item[:content]
         doc = Hpricot(content)
-        puts (doc/"dcst:servicecodedescription").innerHTML
+        service_code_description = (doc/"dcst:servicecodedescription").innerHTML        
       end
 
     end

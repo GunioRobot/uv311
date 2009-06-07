@@ -1,0 +1,21 @@
+<div class="issue">
+  <div class="tally span-3" >
+    <label><%= @issue.votes.count %></label>
+    <span>Agree</span>
+  </div>
+  <div class="span-18">
+    <h3><%= @issue.title %></h3>
+  <p><%=h @issue.description %></p>
+  </div>
+</div>
+
+<div id="comments">
+  <% @issue.comments.each do |comment| %>
+    <div class="comment">
+      <p>
+        <strong><%=h comment.author %></strong> said:<br/>
+        <%=h comment.body %>
+      </p>
+    </div>
+  <% end %>
+</div>
