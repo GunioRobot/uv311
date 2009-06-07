@@ -1,23 +1,7 @@
 <p>
-  <b>Email:</b>
-  <%=h @user.email %>
+  <b>name</b>
+  <%=h @user.name %>
 </p>
-
-<p>
-  <b>Email confirmation:</b>
-  <%=h @user.email_confirmation %>
-</p>
-
-<p>
-  <b>Password:</b>
-  <%=h @user.password %>
-</p>
-
-<p>
-  <b>Password confirmation:</b>
-  <%=h @user.password_confirmation %>
-</p>
-
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
