@@ -3,6 +3,7 @@ ActionController::Routing::Routes.draw do |map|
   map.login 'login', :controller => 'user_sessions', :action => 'new'  
   map.logout 'logout', :controller => 'user_sessions', :action => 'destroy'
   map.resources :user_sessions
+  map.resources :comments
   
   SprocketsApplication.routes(map) 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -14,9 +15,10 @@ ActionController::Routing::Routes.draw do |map|
   # Sample of named route:
   #   map.purchase 'products/:id/purchase', :controller => 'catalog', :action => 'purchase'
   # This route can be invoked with purchase_url(:id => product.id)
-
+    map.vote 'issues/:id/user/:id/vote', :controller => 'issue', :action => 'vote'
+    
   # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   map.resources :products
+    map.resources :issues
 
   # Sample resource route with options:
   #   map.resources :products, :member => { :short => :get, :toggle => :post }, :collection => { :sold => :get }
