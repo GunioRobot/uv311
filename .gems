@@ -4,6 +4,6 @@ dambalah-dcgov --version 0.0.2 --source "http://gems.github.com"
 simple-rss --version 1.2 
 sprockets --version 1.0.2
 faker --version 0.3.1
-is_it_mobile --version 0.9.10 --source "http://gems.rubyforge.org"
+is_it_mobile --version 1.0.1 --source "http://gems.rubyforge.org"
 
 
