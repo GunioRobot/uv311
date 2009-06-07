@@ -9,7 +9,6 @@ class IssuesController < ApplicationController
   end
 
   def vote
-   
      @issue=Issue.find_by_id(params[:id])
      if !@issue.nil?
        Vote.find_or_create_by_issue_id_and_user_id(params[:id], current_user.id)
