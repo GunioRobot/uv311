@@ -18,10 +18,12 @@ uv311_loadScript("http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.j
 uv311_loadStylesheet("http://uv311.org:3000/stylesheets/embed.css");
 document.getElementById('uv311').innerHTML='<div id="uv311"><a href="#" onclick="$(\'#uv311prompt\').fadeIn(\'fast\');">dc311.org</a><div id="uv311prompt" style="display: none"><p>I want to...</p><input type="text" id="uv311searchstring"><input type="button" id="uv311submit" value="search"></div><div id="uv311searchresults"></div></div></div>';
 
-window.onload = function() {  
+$(document).ready() = function() {  
   $("#uv311submit").click(function() {
     alert("hi");
     return false;
   });
+  //autocomplete is in service_types.js
+  $("#issue").autocomplete(autocomplete);
   
 };
