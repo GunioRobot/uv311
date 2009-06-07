@@ -44,7 +44,16 @@ namespace :db do
       issue.address = Faker::Address.street_address(true)
       issue.description = Faker::Lorem.paragraph
       issue.save
-    end    
+      
+      (1..5).each do |i|
+        comment = Comment.new
+        comment.user_id = user.id
+        comment.issue_id = issue.id
+        comment.author = Faker::Name.name
+        comment.body = Faker::Lorem.paragraph
+        comment.save
+      end
+    end 
 
   end
 end
