@@ -25,8 +25,6 @@ namespace :data do
         issue.address = service_address
         
         # description
-        service_code_description
-        order_date
         district = (doc/"dcst:district").innerHTML + " District"
         issue.description = service_code_description + 
                            "\nDistrict:" + district + 
@@ -36,7 +34,6 @@ namespace :data do
         # status
         service_status = (doc/"dcst:serviceorderstatus").innerHTML
         issue.status = service_status
-        
         issue.save                
       end
 
