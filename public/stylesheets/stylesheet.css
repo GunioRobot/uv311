@@ -24,14 +24,15 @@ body {font-size:75%;color:#222;font-family:"Helvetica Neue", Helvetica, Arial, s
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#356490;}
 
 h1 {font-size:3em;padding:25px 0 0 0;font-weight:bold;letter-spacing:-1px;font-size:24px;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
-h2 {font-size:2em;margin-bottom:0.75em}
-h3 {font-size:1.5em;margin-bottom:1em;font-weight:700;font-family: Helvetica, sans-serif;}
+h2 {font-size:2em;margin:0.4em 0}
+h3 {font-size:1.5em;margin-bottom:0;font-weight:700;
+font-family: Helvetica, sans-serif;letter-spacing:-.04em}
 h4 {font-size:1.2em;margin-bottom:1.25em;height:1.25em;_line-height:normal;}
 h5 {font-size:1em;margin-bottom:1em;color:#666;letter-spacing:-.03em;text-transform: uppercase;}
 h6 {font-size:.75em;font-weight:bold;}
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
 
-p {margin:0 0 1.5em;}
+p {margin:0 0 1.5em;font-family:;color:#7F7F7F;}
 p img {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
 p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
 a:focus, a:hover {color:#000;}
@@ -429,4 +430,13 @@ li.icon.r {background-position:95% 40%;}
 
 #search {background:#003975;}
 #search label {color:#fff}
-#search #issue {width:300px;}
+#search #issue {width:470px;height:30px;font-size:1.5em;padding:10px 0 0 10px;color:#003975;}
+
+
+.issue h3 {line-height:18px;}
+.tally {text-align:center;}
+.tally label {font-size:1.5em;line-height:15px;}
+.tally span {display:block;font-size:1.2em;}
+
+
+
