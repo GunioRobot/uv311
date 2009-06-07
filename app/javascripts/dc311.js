@@ -6,7 +6,7 @@ $("p").live("click", function(){
 
 jQuery(document).ready(function() {
   jQuery("#issue").autocomplete(autocomplete);
-     jQuery('a[rel*=facebox]').facebox()
+     jQuery('a[rel*=facebox]').facebox();
        jQuery('a[rel*=vote]').bind('click', function() {
            $.ajax({
              type: 'POST',
