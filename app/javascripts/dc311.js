@@ -4,8 +4,17 @@ $("p").live("click", function(){
   $(this).after("<p>Another paragraph!</p>");
 });
 
-$(document).ready() = function() {  
-  //autocomplete is in service_types.js
-  $("#issue").autocomplete(autocomplete);
-  
-};
+jQuery(document).ready(function() {
+  jQuery("#issue").autocomplete(autocomplete);
+     jQuery('a[rel*=facebox]').facebox()
+       jQuery('a[rel*=vote]').bind('click', function() {
+           $.ajax({
+             type: 'POST',
+             url: this.attr('href'),
+             success: function(){console.log('good boy')}
+           });
+           
+           return false;
+      });
+});
+

@@ -1,12 +1,16 @@
-<% for issue in @issues %>
+<% for issue in @issues 
+
+%>
+
 <div class="issue">
-  <div class="tally span-3" rel="<%#=vote_path(current_user,issue.id)%>">
-    <label><%= issue.votes.count %></label>
-    <span>Agree</span>
+  <div class="tally span-3">
+   <a href="<%=is_login(issue.id)%>" rel="<%= qualify_vote %>">
+     <label><%= issue.votes.count %></label>
+     <span>Agree</span></a>
   </div>
   <div class="span-18">
     <h3><%= link_to CGI.escapeHTML(issue.title), :action => :show, :id => issue.id %></h3>
-  <p><%=h issue.description %></p>
+    <p><%=h issue.description %></p>
   </div>
 </div>
 <% end %>
