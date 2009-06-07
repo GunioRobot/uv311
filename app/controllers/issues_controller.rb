@@ -7,10 +7,21 @@ class IssuesController < ApplicationController
   def update
     
   end
+  
   def vote
-    #if valid user (current_user)
-    ##if is valid issue_id && user !has voted for issue
-    ###save user_id, issue_id to new vote
-    ##return new vote count for issue
+    if logged_in?
+      @issue=Issue.find_by_id(params[:issue_id])
+      if !@issue.nil?
+        Vote.find_or_create_by_issue_id_and_user_id(@issue.id, current_user.id)
+        return @issue.votes.count
+      else
+        #No issue found
+        return false
+      end
+    else
+      #User not logged in
+      return false
+    end
   end
+  
 end
