@@ -1,6 +1,6 @@
 <% for issue in @issues %>
 <div class="issue">
-  <div class="tally span-3" rel="">
+  <div class="tally span-3" rel="<%=vote_path(issue.user_id,issue.id)%>">
     <label><%= issue.votes.count %></label>
     <span>Agree</span>
   </div>
