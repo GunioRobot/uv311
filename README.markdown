@@ -11,7 +11,7 @@
 
 * Create embeddable JS File (atonse)
 * UI (kris)
-* Search/Sphinx (cmoose)
+* Voting (cmoose)
 * User Auth (christophe)
 * Data Feeds (Luc)
 * Mobile pages (guillec)
