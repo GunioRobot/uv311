@@ -8,5 +8,11 @@ class IssuesController < ApplicationController
     
   end
 
-  
+  def vote
+    #if valid user (current_user)
+    ##if is valid issue_id && user !has voted for issue
+    ###save user_id, issue_id to new vote
+    ##return new vote count for issue
+  end
+
 end
