@@ -24,28 +24,36 @@
 #  current_login_ip  :string(255)
 #  perishable_token  :string(255)     default(""), not null
 #  string            :string(255)     default(""), not null
+require 'faker'
 
 namespace :db do    
   desc "Erase and fill database"
   task :populate => :environment do
-    require 'populator'
-    require 'faker'
+
     [Issue, Comment,ServiceType].each(&:delete_all)
     
-    User.populate 20 do |user|
-      user.email = Faker::Internet.email
-      user.login_count = rand()
-      user.string = Faker::Lorem.sentences(3)
-      user.perishable_token = "336717a62efc416f0d4ebc298716d567bbdedf33"
-      user.last_login_ip = "192.168.1.101"
-      user.current_login_ip = "192.168.1.101"
-      Issue.populate 10..12 do |issue|
-          issue.title = Faker::Lorem.sentences()
-          issue.user_id = user.id
-          issue.address = Faker::Address.street_address(true)
-          issue.description= Populator.words(30..40).titleize 
+    user = User.new
+    user.email = Faker::Internet.email
+    user.login_count = rand()
+    user.save        
+    
+    (1..20).each do |index|
+      issue = Issue.new
+      issue.title = Faker::Lorem.sentence
+      issue.user_id = user.id
+      issue.address = Faker::Address.street_address(true)
+      issue.description = Faker::Lorem.paragraph
+      issue.save
+      
+      (1..5).each do |i|
+        comment = Comment.new
+        comment.user_id = user.id
+        comment.issue_id = issue.id
+        comment.author = Faker::Name.name
+        comment.body = Faker::Lorem.paragraph
+        comment.save
       end
-    end
+    end 
 
   end
 end
