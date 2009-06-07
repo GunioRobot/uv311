@@ -39,5 +39,5 @@ class IssuesController < ApplicationController
     @comment = Comment.new
     @comment.issue_id = @issue.id
   end
-
+  
 end

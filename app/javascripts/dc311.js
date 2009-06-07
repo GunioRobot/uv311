@@ -1,8 +1,12 @@
 //add your js code here
 
+$("p").live("click", function(){
+  $(this).after("<p>Another paragraph!</p>");
+});
+
 jQuery(document).ready(function() {
-     jQuery('a[rel*=facebox]').facebox()
-       
+  jQuery("#issue").autocomplete(autocomplete);
+  jQuery('a[rel*=facebox]').facebox()
 })
 
 
