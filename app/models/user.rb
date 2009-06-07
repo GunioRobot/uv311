@@ -21,4 +21,6 @@
 #
 
 class User < ActiveRecord::Base
+  has_many :issues, :class_name => 'Issue', :foreign_key => 'user_id'
+  has_many :comments, :class_name => 'Comment', :foreign_key => 'user_id'
 end
