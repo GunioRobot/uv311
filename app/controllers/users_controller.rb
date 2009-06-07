@@ -30,6 +30,7 @@ class UsersController < ApplicationController
         flash[:notice] = 'User was successfully created.'
         
         format.html { render :text => "ok"}
+
         format.xml  { render :xml => @user, :status => :created, :location => @user }
       else
         format.html { render :action => "new" }
