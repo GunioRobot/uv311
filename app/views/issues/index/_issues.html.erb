@@ -1,7 +1,4 @@
-<% for issue in @issues 
-
-%>
-
+<% for issue in @issues %>
 <div class="issue">
   <div class="tally span-3">
    <a href="<%=is_login(issue.id)%>" rel="<%= qualify_vote %>">

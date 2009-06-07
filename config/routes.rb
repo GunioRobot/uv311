@@ -15,7 +15,7 @@ ActionController::Routing::Routes.draw do |map|
   # Sample of named route:
   #   map.purchase 'products/:id/purchase', :controller => 'catalog', :action => 'purchase'
   # This route can be invoked with purchase_url(:id => product.id)
-    map.vote 'issues/:id/user/:id/vote', :controller => 'issue', :action => 'vote'
+    map.vote 'issues/:id/user/:id/vote', :controller => 'issues', :action => 'vote'
     
   # Sample resource route (maps HTTP verbs to controller actions automatically):
     map.resources :issues

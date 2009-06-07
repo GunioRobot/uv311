@@ -39,10 +39,10 @@ private
     end
   end
   
-  def require_user
-    p "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+  def logged_in?
+    # p "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     if current_user.nil?
-      p current_user.inspect
+      # p current_user.inspect
       flash[:notice] = "You must be logged in to access this page"
       redirect_to new_user_session_url
       return false
