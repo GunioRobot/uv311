@@ -9,6 +9,7 @@ class IssuesController < ApplicationController
   end
 
   def vote
+    raise params[:issue_id].to_yaml
     if logged_in?
       @issue=Issue.find_by_id(params[:issue_id])
       if !@issue.nil?
