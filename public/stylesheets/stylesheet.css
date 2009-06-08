@@ -426,13 +426,11 @@ a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
 .tally span {display:block;font-size:1.2em;}
 
 #rightcol h4 {font-size:18px;font-weight:bold;letter-spacing:-1px;}
-ul.simple-list.drape li {-moz-border-radius:10px;-webkit-border-radius:5px;
-padding:15px 15px 15px 75px;font-size:12px;font-weight:bold;
-background:#fff;margin:0 0 10px 0;}
+ul.simple-list.drape li {padding:15px 15px 15px 75px;font-size:12px;font-weight:bold;background:#fff;margin:0 0 10px 0;-moz-border-radius:10px;-webkit-border-radius:5px;}
 
-ul.simple-list.drape li.computer {background:#fff url(/images/computer.png) no-repeat 10px 5px;}
-ul.simple-list.drape li.clipboard {background:#fff url(/images/clipboard.png) 10px 5px no-repeat;}
-ul.simple-list.drape li.folder {background:#fff url(/images/folder.png) 10px 5px no-repeat;}
+ul.simple-list.drape li.computer {background:#fff url('/images/computer.png') no-repeat 10px 5px;}
+ul.simple-list.drape li.clipboard {background:#fff url('/images/clipboard.png') no-repeat 10px 5px ;}
+ul.simple-list.drape li.folder {background:#fff url('/images/folder.png') no-repeat 10px 5px ;}
 
 /*PLUGINS*/
 #facebox .b{background:url(/images/facebox/b.png);}
