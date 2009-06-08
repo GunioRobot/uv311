@@ -1,4 +1,4 @@
-<p class="loud blast">Can't find your issue? Create one, <%= link_to "click here",new_issue_path %></p>
+<p class="loud blast">Can't find your issue? Create one, <%= link_to "click here",new_issue_path, :id=>'makeIssue' %></p>
 
 <%= render :partial => "issues/index/issues.html.erb", :locals => {:issue => @issues} %>
 
