@@ -11,14 +11,22 @@ jQuery(document).ready(function() {
 })
 
 
-$("a[rel=vote]").live('click', function() {
-console.log('asdfasf')
-     $.ajax({
-       type: 'POST',
-       url: this.attr('href'),
-       success: function(){console.log('good boy')}
-     })
-     
+$("a[rel*=vote]").live('click', function() {
+
+var share=this;
+$.ajax({
+      type: "GET",
+       url: this.href,
+       data: { authenticity_token: window._token },
+       complete: function(xmlHttp){ 
+          count=parseFloat($(share).find("label").text())
+
+          if (xmlHttp.status != 200) {
+            $(share).find("label").text(count+1)
+          }
+          }
+ });
+              
      return false
 })
 

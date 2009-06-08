@@ -11,7 +11,7 @@
     <%= stylesheet_link_tag 'stylesheet' %>
 
   	<%= stylesheet_link_tag "jquery.autocomplete" %>
-
+    <%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
   </head>
   
   <body>
