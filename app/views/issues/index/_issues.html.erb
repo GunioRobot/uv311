@@ -7,7 +7,7 @@
   </div>
   <div class="span-18">
     <h3><%= link_to CGI.escapeHTML(issue.title), :action => :show, :id => issue.id %></h3>
-    <p><%=h issue.description %></p>
+    <p><pre><%=h issue.description %></pre></p>
   </div>
 </div>
 <% end %>
