@@ -17,11 +17,10 @@ namespace :data do
         # Title
         service_code_description = (doc/"dcst:servicecodedescription").innerHTML.downcase.titleize
         service_date = (doc/"dcst:serviceorderdate").innerHTML[0...10]       
-        issue.title = service_code_description + service_date        
+        issue.title = service_code_description + " " +  service_date        
         
         #address
-        service_address = (doc/"dcst:siteaddress").innerHTML + " Washington, DC " 
-                   + (doc/"dcst:zipcode").innerHTML
+        service_address = (doc/"dcst:siteaddress").innerHTML + " Washington, DC " + (doc/"dcst:zipcode").innerHTML
         issue.address = service_address
         
         # description
