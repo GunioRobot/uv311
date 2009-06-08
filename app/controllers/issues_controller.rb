@@ -27,6 +27,7 @@ class IssuesController < ApplicationController
   # GET /issues/new
   # GET /issues/new.xml
   def new
+    @services = ServiceType.all
     @issue = Issue.new
 
     respond_to do |format|
