@@ -109,7 +109,9 @@ ul.simple-list.positions {margin-bottom:25px;}
 ul.simple-list.positions a{display:inline-block;;border:none;margin:0;}
 ul.simple-list.positions span{font-size:.8em;color:#333;margin-top:-5px;display:inline-block;}
 
-
+ul.simple-list.drape li {font-size:1.3em;
+padding:0 0 15px 20px;
+line-height:13px;}
 
 /* grid.css */
 .container {width:940px;margin:0 auto;padding: 20px 0;}
@@ -415,7 +417,6 @@ a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
 #search #issue {width:470px;height:30px;font-size:1.5em;padding:10px 0 0 10px;color:#003975;}
 #search #search_button {padding:10px 0 0 0;}
 #rightcol {background:url(/images/bg_rightcol.png) repeat-x top;margin-top:-200px;min-height:800px;}
-#rightcol ul li a {font-size:1.1em;font-weight:700;line-height:14px;display:block}
 
 
 .issue {padding:10px 0 ;overflow:hidden;}
@@ -424,7 +425,14 @@ a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
 .tally label {font-size:1.5em;line-height:15px;padding:0 0 0 5px}
 .tally span {display:block;font-size:1.2em;}
 
+#rightcol h4 {font-size:18px;font-weight:bold;letter-spacing:-1px;}
+ul.simple-list.drape li {-moz-border-radius:10px;-webkit-border-radius:5px;
+padding:15px 15px 15px 75px;font-size:12px;font-weight:bold;
+background:#fff;margin:0 0 10px 0;}
 
+ul.simple-list.drape li.computer {background:#fff url(/images/computer.png) no-repeat 10px 5px;}
+ul.simple-list.drape li.clipboard {background:#fff url(/images/clipboard.png) 10px 5px no-repeat;}
+ul.simple-list.drape li.folder {background:#fff url(/images/folder.png) 10px 5px no-repeat;}
 
 /*PLUGINS*/
 #facebox .b{background:url(/images/facebox/b.png);}
