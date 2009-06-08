@@ -22,6 +22,7 @@ class UsersController < ApplicationController
     @user = User.new
 
     respond_to do |format|
+
       format.js {render :layout => 'modal.html.erb', :pop=>true} # new.html.erb
       format.html
       format.xml  { render :xml => @user }

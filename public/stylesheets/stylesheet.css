@@ -432,6 +432,10 @@ ul.simple-list.drape li.computer {background:#fff url('/images/computer.png') no
 ul.simple-list.drape li.clipboard {background:#fff url('/images/clipboard.png') no-repeat 10px 5px ;}
 ul.simple-list.drape li.folder {background:#fff url('/images/folder.png') no-repeat 10px 5px ;}
 
+#modal .container {width:auto;}
+#modal #leftcol {width:270px;padding:0 50px 0;}
+#modal #leftcol h1 {padding:0;}
+
 /*PLUGINS*/
 #facebox .b{background:url(/images/facebox/b.png);}
 #facebox .tl{background:url(/images/facebox/tl.png);}
