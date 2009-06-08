@@ -15,4 +15,4 @@
 * User Auth (christophe)
 * Data Feeds (Luc)
 * Mobile pages (guillec)
- 
+* Really think we could use the search box like a filter, then ajax update the leftcol with just those service requests...CM
