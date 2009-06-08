@@ -1,7 +1,4 @@
-<p>
-  <b>name</b>
-  <%=h @user.name %>
-</p>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+
+<%= render_drill_layout({:contents => '/users/show/index.html.erb'},
+                          {:columns => 24, :search=>true}) -%>

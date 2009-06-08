@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-
+ 
   def show
     @user = User.find(params[:id])
 
@@ -14,6 +14,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       format.js {render :layout => 'modal.html.erb'} # new.html.erb
+      format.html
       format.xml  { render :xml => @user }
     end
   end
