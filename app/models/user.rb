@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20090606184710
+# Schema version: 20090607232528
 #
 # Table name: users
 #
@@ -14,8 +14,7 @@
 #  current_login_at  :datetime
 #  last_login_ip     :string(255)
 #  current_login_ip  :string(255)
-#  perishable_token  :string(255)     default(""), not null
-#  string            :string(255)     default(""), not null
+#  name              :string(255)     default(""), not null
 #  created_at        :datetime
 #  updated_at        :datetime
 #
