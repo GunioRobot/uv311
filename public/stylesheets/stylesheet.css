@@ -65,7 +65,7 @@ tfoot {font-style:italic;}
 caption {background:#eee;}
 .small {font-size:.9em;margin-bottom:1.875em;line-height:1.875em;}
 .large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
-.medium {font-size:1em;line-height:1.5em;margin-bottom:1.25em;}
+.medium {font-size:1.1em;line-height:1.5em;margin-bottom:1.25em;font-weight:bold;}
 .blast {font-size:1.4em;line-height:1.4em;}
 .blue {color:#5D85A5;}
 .hide {display:none;}

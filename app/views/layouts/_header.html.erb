@@ -2,13 +2,13 @@
   <div class="span-24 pup">
     <%= link_to '<img src="/images/logo.gif"/>', root_path %>
   </div>
-  <div class="span-8 pup">
-    <img src="images/dc_logo.gif"/>
+  <div class="span-12  last">
+    <div class="bupl"><img src="/images/dc_logo.gif"/></div>
    <% if current_user %>  
      <%= link_to "Logout", logout_path %>  
    <% else %>  
-     <%= link_to "Register", new_user_path %>  
-     <%= link_to "Log in", login_path %>  
+     <div class=""><%= link_to "Register", new_user_path, :class => 'medium' %> | 
+     <%= link_to "Login", login_path, :class => 'medium' %>  </div>
    <% end %>  
   </div>
 </div>
