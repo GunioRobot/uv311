@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20090606184710
+# Schema version: 20090607232528
 #
 # Table name: issues
 #
@@ -13,6 +13,7 @@
 #  token           :string(255)
 #  created_at      :datetime
 #  updated_at      :datetime
+#  status          :string(255)
 #
 
 require 'test_helper'

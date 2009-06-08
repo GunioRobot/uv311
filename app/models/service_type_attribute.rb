@@ -1,18 +1,19 @@
 # == Schema Information
-# Schema version: 20090607182912
+# Schema version: 20090607232528
 #
-# Table name: service_type_attribute
+# Table name: service_type_attributes
 #
-#  id           :integer(4)      not null, primary key
-#  311_id       :string(255)
-#  name         :string(255)
-#  prompt       :text
-#  required     :boolean
-#  attribute_type         :string
-#  width        :integer
-#  item_list    :text
-#  service_type_id :integer
-#  
+#  id              :integer(4)      not null, primary key
+#  id_311          :string(255)
+#  name            :string(255)
+#  prompt          :text
+#  required        :boolean(1)
+#  attribute_type  :string(255)
+#  width           :integer(4)
+#  item_list       :text
+#  created_at      :datetime
+#  updated_at      :datetime
+#  service_type_id :integer(4)
 #
 
 class ServiceTypeAttribute < ActiveRecord::Base
