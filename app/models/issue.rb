@@ -21,4 +21,11 @@ class Issue < ActiveRecord::Base
   belongs_to :service_type, :class_name => 'ServiceType', :foreign_key => 'service_type_id'
   has_many :comments
   has_many :votes, :class_name => 'Vote'
+  
+  def type
+    "type"
+  end  
+  
+  def type=()
+  end  
 end
