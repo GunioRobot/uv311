@@ -7,6 +7,7 @@ $("p").live("click", function(){
 jQuery(document).ready(function() {
   jQuery("#issue").autocomplete(autocomplete);
   jQuery('a[rel*=facebox]').facebox();
+  $('#issue').focus( (function() { $(this).val(""); }) );
 })
 
 
