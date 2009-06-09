@@ -6,11 +6,6 @@ namespace :data do
 		  DCGOV::Open311.get_service_types().each do |item|
 		    ServiceType.create(:service_type => item.service_type, :service_code => item.service_code)
 		  end
-		end
-
-		desc "Fetch current data feed and store them in the DB for development."
-		task :current do
-		end
-		  
+		end		  
 	end
 end
