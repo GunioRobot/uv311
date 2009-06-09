@@ -33,7 +33,7 @@ namespace :data do
         # status
         service_status = (doc/"dcst:serviceorderstatus").innerHTML
         issue.status = service_status
-        issue.save                
+        issue.save  rescue nil # "I know it's bad I just need to get it running and I will look into fixing that"              
       end
 
     end
