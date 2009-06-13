@@ -4,8 +4,12 @@
   <%= f.error_messages %>
 
   <p>
-    <%= f.label "Type" %><br />
-    <%= f.select :type, @services.collect{|x| x.service_type} %>
+    <%= f.label "Type" %>
+    <%= select(:type,:id, @services.collect{|x|  [x.service_type, x.id] } )%>
+  </p>
+  <p>
+    <%= f.label "Type" %>
+    <%= select(:prompt,:id, @attributes.collect{|x|  [x.prompt, x.id] })%>
   </p>
   <p>
     <%= f.label :address %>

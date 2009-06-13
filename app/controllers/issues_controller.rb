@@ -1,17 +1,13 @@
 class IssuesController < ApplicationController
-  # GET /issues
-  # GET /issues.xml
+
   def index
     @issues = Issue.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @issues }
     end
   end
 
-  # GET /issues/1
-  # GET /issues/1.xml
   def show
     @issue = Issue.find(params[:id])
     @comments = Comment.find(:all, :conditions => ["issue_id = ?", @issue.id], :order => "created_at DESC")
@@ -24,20 +20,26 @@ class IssuesController < ApplicationController
     end
   end
 
-  # GET /issues/new
-  # GET /issues/new.xml
+
   def new
     @services = ServiceType.all
+    @attributes = ServiceTypeAttribute.find_all_by_service_type_id(1)
+    # raise @attributes.to_yaml
     @issue = Issue.new
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render :xml => @issue }
+   
     end
   end
-
-  # POST /issues
-  # POST /issues.xml
+  
+  def attributes
+    @attributes = ServiceTypeAttribute.find_all_by_service_type_id(params[:id])
+    respond_to do |format|
+        format.js { render :json => @attributes.to_json}
+    end
+  end
+  
   def create
     @issue = Issue.new(params[:issue])
 
@@ -53,8 +55,6 @@ class IssuesController < ApplicationController
     end
   end
 
-  # PUT /issues/1
-  # PUT /issues/1.xml
   def update
     @issue = Issue.find(params[:id])
 
@@ -70,8 +70,7 @@ class IssuesController < ApplicationController
     end
   end
 
-  # DELETE /issues/1
-  # DELETE /issues/1.xml
+
   def destroy
     @issue = Issue.find(params[:id])
     @issue.destroy

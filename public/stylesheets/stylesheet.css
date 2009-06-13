@@ -376,6 +376,7 @@ input.login {width:200px;}
 input.title {font-size:1.5em;}
 input.search_field {background:#FFFFFF url(/images/default/layout/core/icon_search.gif) no-repeat right center;}
 textarea {width:390px;padding:5px;}
+select {width:300px;}
 
 .error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
 .error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
