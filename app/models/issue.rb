@@ -22,10 +22,16 @@ class Issue < ActiveRecord::Base
   has_many :comments
   has_many :votes, :class_name => 'Vote'
   
+  after_create :submit_issue
+
   def type
     "type"
   end  
   
   def type=()
   end  
+
+  def submit_issue
+    DCGOV::Open311.submit(:aid => aid, :description => description) if Rails.env == 'production'
+  end
 end
