@@ -2,7 +2,7 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.xml
   def index
-    @issues = Issue.all
+    @issues = Issue.find(:all, :order => "created_at DESC")
 
     respond_to do |format|
       format.html # index.html.erb
