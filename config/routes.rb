@@ -5,6 +5,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :user_sessions
   map.resources :comments
   map.resources :issues
+  map.show_map 'show_map', :controller => 'issues', :action => 'show_map'
   
   SprocketsApplication.routes(map) 
   # The priority is based upon order of creation: first created -> highest priority.

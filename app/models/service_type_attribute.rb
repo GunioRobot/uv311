@@ -18,4 +18,8 @@
 
 class ServiceTypeAttribute < ActiveRecord::Base
   belongs_to :service_type, :class_name => 'ServiceType', :foreign_key => 'service_type_id'
+
+  def aid
+    id_311
+  end
 end

@@ -1,13 +1,23 @@
 class IssuesController < ApplicationController
 
   def index
-    @issues = Issue.all
+
+    @issues = Issue.find(:all, :order => "created_at DESC")
+
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @issues }
     end
   end
 
+  def show_map
+    respond_to do |format|
+      format.html # show.html.erb
+    end
+  end
+  
+  # GET /issues/1
+  # GET /issues/1.xml
   def show
     @issue = Issue.find(params[:id])
     @comments = Comment.find(:all, :conditions => ["issue_id = ?", @issue.id], :order => "created_at DESC")
