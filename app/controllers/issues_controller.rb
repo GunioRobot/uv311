@@ -10,6 +10,12 @@ class IssuesController < ApplicationController
     end
   end
 
+  def show_map
+    respond_to do |format|
+      format.html # show.html.erb
+    end
+  end
+  
   # GET /issues/1
   # GET /issues/1.xml
   def show
