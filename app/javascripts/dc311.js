@@ -26,6 +26,17 @@ jQuery(document).ready(function() {
       })
 
 })
+
+
+// sprocketize -I app/javascripts \
+// -I vendor/sprockets/jquery/src \
+// -I vendor/sprockets/facebox/src \
+// -I vendor/sprockets/autocomplete/src \
+// -I vendor/sprockets/servicetypes/src \
+// --asset-root=public \
+// app/javascripts/*.js > public/sprockets.js
+
+
 // $('#issue').keypress(function(e){ console.log('asdffsd') }) 
 function cl(v){console.log(v)}
 $('#issue').live('click',function(){$(this).val("");})
