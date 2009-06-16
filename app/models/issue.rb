@@ -32,6 +32,8 @@ class Issue < ActiveRecord::Base
   end  
 
   def submit_issue
+    # can use code below to get the fields for the issue. need to figure out how to get the service_code
+    #request_fields = DCGOV::Open311.get_request_fields("S0000")
     DCGOV::Open311.submit(:aid => aid, :description => description) if Rails.env == 'production'
   end
 end
