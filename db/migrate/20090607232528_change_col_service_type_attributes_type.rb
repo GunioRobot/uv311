@@ -4,6 +4,6 @@ class ChangeColServiceTypeAttributesType < ActiveRecord::Migration
   end
 
   def self.down
-        rename_column :service_type_attributes, :attribute_type, :type
+    rename_column :service_type_attributes, :attribute_type, :type
   end
 end
