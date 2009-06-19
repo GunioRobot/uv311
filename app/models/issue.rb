@@ -81,6 +81,12 @@ class Issue < ActiveRecord::Base
   
   def type=()
   end  
+  
+  def attributes
+  end
+  
+  def attributes=(atts)
+  end  
 
   def submit_issue
     # can use code below to get the fields for the issue. need to figure out how to get the service_code

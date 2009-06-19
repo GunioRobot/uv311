@@ -46,7 +46,9 @@ class IssuesController < ApplicationController
   def attributes
     @attributes = ServiceTypeAttribute.find_all_by_service_code(params[:id], :conditions => ["attribute_type<>''"])
     respond_to do |format|
-        format.js { render :json => @attributes.to_json}
+      p @attributes.inspect
+#        format.js { render :json => @attributes.to_json}
+        format.js { render :partial => "issues/new/custom_form.html.erb"}
     end
   end
   
