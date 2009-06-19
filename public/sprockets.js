@@ -1109,6 +1109,10 @@ jQuery(document).ready(function() {
       })
 
 })
+
+
+
+
 function cl(v){console.log(v)}
 $('#issue').live('click',function(){$(this).val("");})
 
