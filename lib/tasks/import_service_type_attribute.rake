@@ -19,7 +19,7 @@ namespace :data do
           service_code = row[2].to_s
           st = ServiceType.find(:first, :conditions => { :service_code => service_code})
           if !st.nil?  
-            ServiceTypeAttribute.create(:id_311 => row[0], :service_code => service_code, :name => row[3], :prompt => row[4], :required => required, :attribute_type => row[6], :width => row[7], :item_list => row[8], :service_type_id => st.id)
+            ServiceTypeAttribute.create(:id_311 => row[0], :service_code => service_code, :name => row[3].to_s.gsub("NULL",""), :prompt => row[4].to_s.gsub("NULL",""), :required => required, :attribute_type => row[6].to_s.gsub("NULL",""), :width => row[7].to_s.gsub("NULL",""), :item_list => row[8].to_s.gsub("NULL",""), :service_type_id => st.id)
           end 
         end
         row_index += 1

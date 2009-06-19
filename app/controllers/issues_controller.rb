@@ -33,7 +33,7 @@ class IssuesController < ApplicationController
 
   def new
     @services = ServiceType.all
-    @attributes = ServiceTypeAttribute.find_all_by_service_type_id(1)
+    @attributes = ServiceTypeAttribute.find_all_by_service_type_id(1, :conditions => ["attribute_type<>''"])
     # raise @attributes.to_yaml
     @issue = Issue.new
 
@@ -44,7 +44,8 @@ class IssuesController < ApplicationController
   end
   
   def attributes
-    @attributes = ServiceTypeAttribute.find_all_by_service_code(params[:id])
+    @attributes = ServiceTypeAttribute.find_all_by_service_code(params[:id], :conditions => ["attribute_type<>''"])
+    p "WTF"
     p @attributes.inspect
     respond_to do |format|
         format.js { render :json => @attributes.to_json}
