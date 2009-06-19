@@ -3,7 +3,28 @@
       <%= link_to "Logout", logout_path %>  
    <% else %>  
      <%= link_to "Register", new_user_path %>  
-     <%= link_to "Log in", login_path %>  
+     <%= link_to "Log in", login_path %> or <fb:login-button onlogin="update_user_box();"></fb:login-button>
    <% end %>  
 
 </div>
+
+<script type="text/javascript">
+function update_user_box() {
+
+  var user_box = document.getElementById("user");
+
+  // add in some XFBML. note that we set useyou=false so it doesn't display "you"
+  user_box.innerHTML =
+      "<span>"
+    + "<fb:profile-pic uid=loggedinuser facebook-logo=true></fb:profile-pic>"
+    + "Welcome, <fb:name uid=loggedinuser useyou=false></fb:name>. You are signed in with your Facebook account."
+    + "</span>";
+
+  // because this is XFBML, we need to tell Facebook to re-process the document 
+  FB.XFBML.Host.parseDomTree();
+}
+</script>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php"></script>
+<script type="text/javascript">
+    FB.init("511f25858d093de6603db69a80cfdf82", "xd_receiver.htm");
+</script>

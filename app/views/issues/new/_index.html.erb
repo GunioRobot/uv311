@@ -24,8 +24,28 @@
     <%= f.text_area :description %>
   </p>
   <p>
-    <%= f.submit 'Create' %>
+	
+	<%= button_to "Create", :onclick => "sendFeed()" %>
   </p>
 <% end %>
 
 <%= link_to 'Back', issues_path %>
+
+<script type="text/javascript">
+
+function sendFeed() {
+	alert('word')
+	FB.ensureInit(function() {
+	var template_stuff = {"images":[{"src":"http://easy311.org/images/logo.gif", "href":"http://easy311.org"}]}; 
+		
+	var body_general = "Tell you friends about this issue: "
+	var user_message_prompt = "Let your friends know!";
+	var x = FB.Connect.showFeedDialog(91456281023, template_stuff, null, body_general, null, FB.RequireConnect.require, sendIssue());
+	});
+}
+
+function sendIssue() {
+	alert('sending issue')
+	document.forms[0].submit()	
+}
+</script>
