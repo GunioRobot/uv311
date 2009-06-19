@@ -44,7 +44,8 @@ class IssuesController < ApplicationController
   end
   
   def attributes
-    @attributes = ServiceTypeAttribute.find_all_by_service_type_id(params[:id])
+    @attributes = ServiceTypeAttribute.find_all_by_service_code(params[:id])
+    p @attributes.inspect
     respond_to do |format|
         format.js { render :json => @attributes.to_json}
     end

@@ -5,7 +5,7 @@
 
   <p>
     <%= f.label "Type" %>
-    <%= select(:type,:id, @services.collect{|x|  [x.service_type, x.id] } )%>
+    <%= select(:type,:id, @services.collect{|x|  [x.service_type, x.service_code] }, {:include_blank => ''})%>
   </p>
   <p>
     <%= f.label "Type" %>
