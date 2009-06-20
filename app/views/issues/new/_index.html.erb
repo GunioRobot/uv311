@@ -1,6 +1,6 @@
 <h1>New issue</h1>
 
-<% form_for(@issue) do |f| %>
+<% form_for @issue, :html => { :multipart => true } do |f| %>
   <%= f.error_messages %>
 
   <p>
@@ -28,7 +28,10 @@
     <%= f.text_area :description %>
   </p>
   <p>
-	
+    <%#= f.label :image %>
+	<%#= f.file_field :image %>
+  </p>
+  <p>
 	<%= button_to "Create", :onclick => "sendFeed()" %>
   </p>
 <% end %>
