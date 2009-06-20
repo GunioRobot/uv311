@@ -31,6 +31,7 @@ Rails::Initializer.run do |config|
   config.gem "sprockets", :version => "1.0.2"
   config.gem "hpricot", :version => "0.8.1"
   config.gem "faker", :version => "0.3.1"
+  config.gem "crack", :version => "0.1.2"
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
