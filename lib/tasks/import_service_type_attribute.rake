@@ -7,6 +7,7 @@ namespace :data do
 
 		desc "Import service type attributes"
 		task :service_types_attributes , :needs => :environment do
+		  ServiceTypeAttribute.all.each{|x| x.destroy}
 		  row_index = 0
 		  CSV::Reader.parse(File.open('doc/service_types_controls_apps09.csv', 'rb')) do |row|
         if row_index > 0  
