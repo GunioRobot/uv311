@@ -1,6 +1,5 @@
 require 'open-uri'
 require 'hpricot'
-require 'crack'
 
 namespace :data do
   namespace :import do
