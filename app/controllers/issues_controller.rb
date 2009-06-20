@@ -34,7 +34,7 @@ class IssuesController < ApplicationController
   def new
     @services = ServiceType.all
     @attributes = ServiceTypeAttribute.find_all_by_service_type_id(1, :conditions => ["attribute_type<>''"])
-    # raise @attributes.to_yaml
+    
     @issue = Issue.new
 
     respond_to do |format|
@@ -46,7 +46,6 @@ class IssuesController < ApplicationController
   def attributes
     @attributes = ServiceTypeAttribute.find_all_by_service_code(params[:id], :conditions => ["attribute_type<>''"])
     respond_to do |format|
-      p @attributes.inspect
 #        format.js { render :json => @attributes.to_json}
         format.js { render :partial => "issues/new/custom_form.html.erb"}
     end
@@ -61,6 +60,7 @@ class IssuesController < ApplicationController
         format.html { redirect_to(@issue) }
         format.xml  { render :xml => @issue, :status => :created, :location => @issue }
       else
+        p @issue.errors.inspect
         format.html { render :action => "new" }
         format.xml  { render :xml => @issue.errors, :status => :unprocessable_entity }
       end
