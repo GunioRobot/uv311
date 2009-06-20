@@ -10,7 +10,7 @@
     <% elsif a.attribute_type.strip.eql?("TextBox") -%>
   		<p>
 		<%= label :issue, "attributes_field_#{i}", a.prompt -%>
-		<%= text_field :issue,"attributes_field_#{i}", {:name => "issue[attributes][field_#{i}]", :size => 50, :maxlength => a.width} -%>
+		<%= text_field_tag "issue[attributes][field_#{i}]", '', {:name => "issue[attributes][field_#{i}]", :size => 50, :maxlength => a.width} -%>
   		</p>
 	<% end -%>
   <% end -%>
