@@ -14,7 +14,7 @@ class IssuesControllerTest < ActionController::TestCase
 
   test "should create issue" do
     assert_difference('Issue.count') do
-      post :create, :issue => { }
+      post :create, :issue => { :service_request => "something" }
     end
 
     assert_redirected_to issue_path(assigns(:issue))

@@ -1,11 +1,11 @@
 <h1>New issue</h1>
 
-<% form_for @issue, :html => { :multipart => true } do |f| %>
+<% form_for( @issue, :html => { :multipart => true }) do |f| %>
   <%= f.error_messages %>
 
   <p>
-    <%= f.label "Type" %>
-    <%= select(:type,:id, @services.collect{|x|  [x.service_type, x.service_code] }, {:include_blank => ''})%>
+    <%= f.label :service_request %>
+    <%= select(:issue,:service_request, @services.collect{|x|  [x.service_type, x.service_code] }, {:include_blank => ''})%>
   </p>
   <%= render :partial => "issues/new/custom_form.html.erb" %>
 <%#= select(:prompt,:id, @attributes.collect{|x|  [x.prompt, x.id] })%>
@@ -28,8 +28,8 @@
     <%= f.text_area :description %>
   </p>
   <p>
-    <%#= f.label :image %>
-	<%#= f.file_field :image %>
+    <%= f.label :picture %>
+	<%= f.file_field :picture %>
   </p>
   <p>
 	<input type="button" onclick="sendFeed()" value="Create"/>

@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20090607232528
+# Schema version: 20090620201029
 #
 # Table name: service_type_attributes
 #
@@ -14,6 +14,7 @@
 #  created_at      :datetime
 #  updated_at      :datetime
 #  service_type_id :integer(4)
+#  service_code    :string(255)
 #
 
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html

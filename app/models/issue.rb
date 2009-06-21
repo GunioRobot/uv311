@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20090618075534
+# Schema version: 20090621165426
 #
 # Table name: issues
 #
@@ -65,6 +65,12 @@
 #  lat                            :float
 #  long                           :float
 #  point                          :string(255)
+#  severity                       :string(255)     default("non-emergency")
+#  picture_file_name              :string(255)
+#  picture_content_type           :string(255)
+#  picture_file_size              :integer(4)
+#  picture_updated_at             :datetime
+#  service_request                :string(255)
 #
 
 class Issue < ActiveRecord::Base
@@ -73,19 +79,29 @@ class Issue < ActiveRecord::Base
   has_many :comments
   has_many :votes, :class_name => 'Vote'
   
+  has_attached_file :picture,
+  :styles => {
+      :thumb=> "100x100>",
+      :small  => "150x150>",
+      :medium => "300x300>",
+      :large =>   "400x400>" }
+  # has_attached_file :photo, :styles => { :small => "150x150>" },
+  #                   :url  => "/assets/products/:id/:style/:basename.:extension",
+  #                   :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
+
+#  validates_attachment_presence :picture
+#  validates_attachment_size :picture, :less_than => 1.megabyte
+
+  
+  
   after_create :submit_issue
 
-  def type
-    "type"
-  end  
-  
-  def type=()
-  end  
-  
-  def attributes
+  def srv_attributes
+    @atts
   end
   
-  def attributes=(atts)
+  def srv_attributes=(atts)
+    @atts
   end  
 
   def submit_issue

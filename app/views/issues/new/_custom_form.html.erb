@@ -2,15 +2,15 @@
   <% @attributes.each_with_index do |a, i| -%>	
 	<% if a.attribute_type.strip.eql?("DropDown") -%>
   		<p>
-    	<%= label :issue, "attributes_select_#{i}", a.prompt -%>
-    	<%= select_tag( "issue[attributes][field_#{i}]", 
+    	<%= label :issue, "srv_attributes_select_#{i}", a.prompt -%>
+    	<%= select_tag( "issue[srv_attributes][field_#{i}]", 
 						options_for_select(a.item_list.split(",").collect{|x| x.strip}), 
-						{:name => "issue[attributes][field_#{i}]", :id =>"attributes_select_#{i}" }) -%>
+						{:name => "issue[srv_attributes][field_#{i}]", :id =>"srv_attributes_select_#{i}" }) -%>
   		</p>
     <% elsif a.attribute_type.strip.eql?("TextBox") -%>
   		<p>
-		<%= label :issue, "attributes_field_#{i}", a.prompt -%>
-		<%= text_field_tag "issue[attributes][field_#{i}]", '', {:name => "issue[attributes][field_#{i}]", :size => 50, :maxlength => a.width} -%>
+		<%= label :issue, "srv_attributes_field_#{i}", a.prompt -%>
+		<%= text_field_tag "issue[srv_attributes][field_#{i}]", '', {:name => "issue[srv_attributes][field_#{i}]", :size => 50, :maxlength => a.width} -%>
   		</p>
 	<% end -%>
   <% end -%>
