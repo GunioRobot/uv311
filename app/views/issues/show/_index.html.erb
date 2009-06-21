@@ -21,7 +21,7 @@
   <%= f.text_field :author %>
   <%= f.label :body, 'Body' %>
   <%= f.text_area :body, :cols => 30, :rows => 5 %><br/>
-  <%= submit_tag 'Add Comment' %> or <input type="button" onclick="sendToFacebook()" value="Publish to Facebook"/>
+  <%= submit_tag 'Add Comment' %> or <input type="button" onclick="sendToFacebook('<%=h @issue.description %>', '<%= @issue.picture.url(:small) %>')" value="Publish to Facebook"/>
 <% end %>
 </div>
 
@@ -40,11 +40,11 @@
 
 <script type="text/javascript">
 
-function sendToFacebook() {
+function sendToFacebook(desc, img_url) {
 	FB.ensureInit(function() {
 	var template_stuff = {"images":[{"src":"http://easy311.org/images/logo.gif", "href":"http://easy311.org"}]}; 
 	//The body_general should hold a description of the issue	
-	var body_general = " "
+	var body_general = desc
 	var user_message_prompt = "Lets make DC a better place to live!";
 	var x = FB.Connect.showFeedDialog(93980376023, template_stuff, null, body_general, null, FB.RequireConnect.require, null);
 	});
