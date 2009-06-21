@@ -432,7 +432,7 @@ ul.simple-list.drape li {padding:15px 15px 15px 75px;font-size:12px;font-weight:
 ul.simple-list.drape li.computer {background:#fff url('/images/computer.png') no-repeat 10px 5px;}
 ul.simple-list.drape li.clipboard {background:#fff url('/images/clipboard.png') no-repeat 10px 5px ;}
 ul.simple-list.drape li.folder {background:#fff url('/images/folder.png') no-repeat 10px 5px ;}
-ul.simple-list.drape li.facebook {background:#fff url('/images/facebook.png') no-repeat 10px 5px ;padding-bottom:35px;}
+ul.simple-list.drape li.facebook {background:#fff  no-repeat 10px 5px ;padding:15px;}
 ul.simple-list.drape li.map {background:#fff url('/images/map.png') no-repeat 10px 5px ;padding-bottom:35px;}
 
 #modal .container {width:auto;}
@@ -464,31 +464,15 @@ position:absolute;height:expression(document.body.scrollHeight > document.body.o
 
 
 
+/*pagination*/
 
-.pagination {
-  text-align: center;
-  padding: .3em; }
-  .pagination a, .pagination span {
-    padding: .2em .5em; }
-  .pagination span.disabled {
-    color: #AAA; }
-  .pagination span.current {
-    font-weight: bold;
-    color: #AF372F; }
-  .pagination a {
-    border: 1px solid #DDDDDD;
-    color: #3572B8;
-    text-decoration: none; }
-    .pagination a:hover, .pagination a:focus {
-      border-color: #003366;
-      background: #3572B8;
-      color: #fff; }
-  .pagination .page_info {
-    color: #aaa;
-    padding-top: .8em; }
-  .pagination .prev_page, .pagination .next_page {
-    border-width: 2px; }
-  .pagination .prev_page {
-    margin-right: 1em; }
-  .pagination .next_page {
-    margin-left: 1em; }
+.pagination{text-align:center;padding:.3em;}
+.pagination a,.pagination span{padding:.2em .5em;}
+.pagination span.disabled{color:#AAA;}
+.pagination span.current{font-weight:bold;color:#AF372F;}
+.pagination a{border:1px solid #DDDDDD;color:#3572B8;text-decoration:none;}
+.pagination a:hover,.pagination a:focus{border-color:#003366;background:#3572B8;color:#fff;}
+.pagination .page_info{color:#aaa;padding-top:.8em;}
+.pagination .prev_page,.pagination .next_page{border-width:2px;}
+.pagination .prev_page{margin-right:1em;}
+.pagination .next_page{margin-left:1em;}
