@@ -32,7 +32,9 @@ Rails::Initializer.run do |config|
   config.gem "hpricot", :version => "0.8.1"
   config.gem "faker", :version => "0.3.1"
   config.gem "thoughtbot-paperclip", :version => ">=2.2.0", :lib => "paperclip", :source => "http://gems.github.com"
-  config.gem "mislav-will_paginate", :version => ">=2.3.7", :source=> "http://gems.github.com"
+  config.gem "mislav-will_paginate", :version => ">=2.3.7", :lib => 'will_paginate', :source=> "http://gems.github.com"
+  
+  
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
