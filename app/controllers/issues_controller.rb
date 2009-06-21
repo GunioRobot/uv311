@@ -1,4 +1,5 @@
 class IssuesController < ApplicationController
+  before_filter :adjust_format_for_mobile, :only => ["show", "index"]
 
   def index
 
