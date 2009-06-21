@@ -1,7 +1,8 @@
 <div class="container">
     <% if current_user %>  
       <%= link_to "Logout", logout_path %>  
-   <% else %>  
+   <% else %>
+	 <div id="user"></div>  
      <%= link_to "Register", new_user_path %>  
      <%= link_to "Log in", login_path %> or <fb:login-button onlogin="update_user_box();"></fb:login-button>
    <% end %>  
@@ -26,5 +27,5 @@ function update_user_box() {
 </script>
 <script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php"></script>
 <script type="text/javascript">
-    FB.init("511f25858d093de6603db69a80cfdf82", "xd_receiver.htm");
+    FB.init("511f25858d093de6603db69a80cfdf82", "/xd_receiver.htm");
 </script>

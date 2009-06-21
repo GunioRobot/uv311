@@ -1,10 +1,13 @@
 class IssuesController < ApplicationController
+  before_filter :adjust_format_for_mobile, :only => ["index"]
 
   def index
 
     @issues = Issue.find(:all, :order => "created_at DESC")
 
     respond_to do |format|
+      logger.debug "format:: " + format.to_s
+      format.mobile
       format.html # index.html.erb
       format.xml  { render :xml => @issues }
     end
