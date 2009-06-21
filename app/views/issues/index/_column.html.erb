@@ -5,15 +5,13 @@
         <li class="clipboard">Vote on issues most important to you.</li>
         <li class="folder">Submit your public service issue online.</li>
       </ul>
-      <ul class="simple-list drape"> 
-        <li class="facebook">
-          <%= render :partial => '/layouts/parts/facebook' %>
-        </li>
-      </ul>
+
     <h4>Trends</h4>
       <ul class="simple-list drape">
+         <li class="facebook">
+            <%= render :partial => '/layouts/parts/facebook' %>
+          </li>
         <li class="map"><%= link_to 'View Geo location', show_map_path %></li>
-        <li>Type with the most issues.</li>
       </ul>
 
 </div>
