@@ -1,0 +1,2 @@
+Select a type:
+<%= select(:type,:id, @services.collect{|x|  [x.service_type, x.service_code] }, {:include_blank => ''})%>

@@ -1,5 +1,5 @@
 class IssuesController < ApplicationController
-  before_filter :adjust_format_for_mobile, :only => ["index"]
+  before_filter :adjust_format_for_mobile, :only => ["index", "new"]
 
   def index
 
@@ -38,10 +38,15 @@ class IssuesController < ApplicationController
     @services = ServiceType.all
     @attributes = ServiceTypeAttribute.find_all_by_service_type_id(1, :conditions => ["attribute_type<>''"])
     
+    @attributes.each do |s|
+      logger.debug "ONE::: " +s.inspect
+    end
+    
     @issue = Issue.new
 
     respond_to do |format|
       format.html # new.html.erb
+      format.mobile
     end
   end
   

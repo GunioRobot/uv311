@@ -1089,25 +1089,17 @@ jQuery(document).ready(function() {
   jQuery('a[rel*=facebox]').facebox();
 
 
-  $('#type_id').change(function(){
-
+  $('#issue_service_request').change(function(){
     var id=$(this).val();
-    var hidden=$('#prompt_id').parent();
 
-     $.getJSON('/issues/attributes/'+id,
-             function(data){
-               $('#prompt_id').empty()              //clear service type first
-               if(data.length != 0){                //if the return is empty hide the service type
-                   if(hidden) $('#prompt_id').parent().removeClass('hide')
-                   $.each(data, function(i,item){
-                     $('#prompt_id').append('<option value="'+item.service_type_attribute.id+'">'+item.service_type_attribute.prompt+'</option>')
-                    });
-                 } else {
-                   $('#prompt_id').parent().addClass('hide')
-                 }
-             });
-      })
-
+	$.ajax({
+	   url: '/issues/attributes/'+id,
+	   dataType: "html",
+	   success: function(data){
+		$('#custom_form_id').replaceWith(data);
+	   }
+	 });
+  })
 })
 
 
