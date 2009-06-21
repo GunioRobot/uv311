@@ -39,7 +39,6 @@ class IssuesController < ApplicationController
 
     respond_to do |format|
       format.html # new.html.erb
-   
     end
   end
   
@@ -60,7 +59,8 @@ class IssuesController < ApplicationController
         format.html { redirect_to(@issue) }
         format.xml  { render :xml => @issue, :status => :created, :location => @issue }
       else
-        p @issue.errors.inspect
+        @services = ServiceType.all
+        @attributes = ServiceTypeAttribute.find_all_by_service_type_id(1, :conditions => ["attribute_type<>''"])
         format.html { render :action => "new" }
         format.xml  { render :xml => @issue.errors, :status => :unprocessable_entity }
       end

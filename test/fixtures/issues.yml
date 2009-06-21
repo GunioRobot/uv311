@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20090618075534
+# Schema version: 20090621165426
 #
 # Table name: issues
 #
@@ -65,6 +65,12 @@
 #  lat                            :float
 #  long                           :float
 #  point                          :string(255)
+#  severity                       :string(255)     default("non-emergency")
+#  picture_file_name              :string(255)
+#  picture_content_type           :string(255)
+#  picture_file_size              :integer(4)
+#  picture_updated_at             :datetime
+#  service_request                :string(255)
 #
 
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html

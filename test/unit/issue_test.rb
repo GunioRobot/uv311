@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20090618075534
+# Schema version: 20090621165426
 #
 # Table name: issues
 #
@@ -65,13 +65,23 @@
 #  lat                            :float
 #  long                           :float
 #  point                          :string(255)
+#  severity                       :string(255)     default("non-emergency")
+#  picture_file_name              :string(255)
+#  picture_content_type           :string(255)
+#  picture_file_size              :integer(4)
+#  picture_updated_at             :datetime
+#  service_request                :string(255)
 #
 
 require 'test_helper'
 
 class IssueTest < ActiveSupport::TestCase
   # Replace this with your real tests.
-  def test_truth
-    assert true
+  def test_create
+    assert Issue.create(:description => "NA", :service_request => "something")
+    i = Issue.new(:description => "NA", :service_request => "something")
+    assert i.save
+    assert i.valid?
+    assert_not_nil i.description
   end
 end

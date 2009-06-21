@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
   
   
   // handles the select form toggeling 
-  $('#type_id').change(function(){
+  $('#issue_service_request').change(function(){
     var id=$(this).val();
 
 	$.ajax({
@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
 	 });
   })
 })
-
+ 
 
 // sprocketize -I app/javascripts \
 // -I vendor/sprockets/jquery/src \
