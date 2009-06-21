@@ -19,13 +19,13 @@ namespace :data do
 		    if row_index > 0 
 		      service_type = row[1].to_s
           service_code = row[2].to_s
-          list << {:service_type => row[1].to_s, :service_code => row[2].to_s}
+          list << [row[1].to_s, row[2].to_s]
         end
         row_index += 1
       end
       
       list.uniq!
-      list.each{|x| ServiceType.create(:service_type => x[:service_type], :service_code => x[:service_code])}
+      list.each{|x| ServiceType.create(:service_type => x[0], :service_code => x[1])}
       p "Imported #{ServiceType.all.size} ServiceTypes"
 		end		  
 		
