@@ -433,6 +433,7 @@ ul.simple-list.drape li.computer {background:#fff url('/images/computer.png') no
 ul.simple-list.drape li.clipboard {background:#fff url('/images/clipboard.png') no-repeat 10px 5px ;}
 ul.simple-list.drape li.folder {background:#fff url('/images/folder.png') no-repeat 10px 5px ;}
 ul.simple-list.drape li.facebook {background:#fff url('/images/facebook.png') no-repeat 10px 5px ;padding-bottom:35px;}
+ul.simple-list.drape li.map {background:#fff url('/images/map.png') no-repeat 10px 5px ;padding-bottom:35px;}
 
 #modal .container {width:auto;}
 #modal #leftcol {width:270px;padding:0 50px 0;}
