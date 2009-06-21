@@ -1,0 +1,15 @@
+development:
+  bucket: easy311
+  access_key_id:  'AKIAJVIFFDHAQOWGDGEA'
+  secret_access_key: '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'
+
+production:
+  bucket: easy311
+  access_key_id:  'AKIAJVIFFDHAQOWGDGEA'
+  secret_access_key: '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'
+
+test:
+  bucket: easy311
+  access_key_id:  'AKIAJVIFFDHAQOWGDGEA'
+  secret_access_key: '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'
+

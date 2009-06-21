@@ -84,7 +84,11 @@ class Issue < ActiveRecord::Base
       :thumb=> "100x100>",
       :small  => "150x150>",
       :medium => "300x300>",
-      :large =>   "400x400>" }
+      :large =>   "400x400>" },
+      :storage => :s3,
+      :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
+      :path => ":attachment/:id/:style.:extension",
+      :bucket => 'easy311'      
   # has_attached_file :photo, :styles => { :small => "150x150>" },
   #                   :url  => "/assets/products/:id/:style/:basename.:extension",
   #                   :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
