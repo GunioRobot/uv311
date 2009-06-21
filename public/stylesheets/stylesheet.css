@@ -432,6 +432,7 @@ ul.simple-list.drape li {padding:15px 15px 15px 75px;font-size:12px;font-weight:
 ul.simple-list.drape li.computer {background:#fff url('/images/computer.png') no-repeat 10px 5px;}
 ul.simple-list.drape li.clipboard {background:#fff url('/images/clipboard.png') no-repeat 10px 5px ;}
 ul.simple-list.drape li.folder {background:#fff url('/images/folder.png') no-repeat 10px 5px ;}
+ul.simple-list.drape li.facebook {background:#fff url('/images/facebook.png') no-repeat 10px 5px ;padding-bottom:35px;}
 
 #modal .container {width:auto;}
 #modal #leftcol {width:270px;padding:0 50px 0;}
