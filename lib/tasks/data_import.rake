@@ -50,7 +50,11 @@ namespace :data do
         end
         row_index += 1
       end
+      p "Imported #{ServiceTypeAttribute.all.size} ServiceTypeAttributes"
 		end
 		
+		desc "Import service type attributes"
+		task :all , :needs => [:service_types, :service_types_attributes] do
+		end
 	end
 end
