@@ -32,7 +32,7 @@
 	<%= f.file_field :picture %>
   </p>
   <p>
-	<input type="button" onclick="sendFeed()" value="Create"/>
+	<input type="submit" onclick="sendFeed()" value="Create"/>
   </p>
 <% end %>
 
@@ -49,12 +49,10 @@ function sendFeed() {
 	var user_message_prompt = "Lets make DC a better place to live!";
 	var x = FB.Connect.showFeedDialog(91456281023, template_stuff, null, body_general, null, FB.RequireConnect.require, sendIssue());
 	});
-	
-	document.forms[0].submit()
 }
 
 function sendIssue() {
 	//alert('sending issue')
-	//document.forms[0].submit()	
+	document.forms[0].submit()	
 }
 </script>
