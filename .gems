@@ -7,5 +7,5 @@ faker --version 0.3.1
 is_it_mobile --version 1.0.1 --source "http://gems.rubyforge.org"
 right_aws --version 1.8.1
 thoughtbot-paperclip --version 2.2.0 --source "http://gems.github.com/"
-
+mislav-will_paginate --version >=2.3.7 --source=> "http://gems.github.com"
 
