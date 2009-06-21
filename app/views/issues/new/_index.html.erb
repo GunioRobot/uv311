@@ -32,27 +32,8 @@
 	<%= f.file_field :picture %>
   </p>
   <p>
-	<input type="button" onclick="sendFeed()" value="Create"/>
+	<input type="submit" value="Create"/>
   </p>
 <% end %>
 
 <%= link_to 'Back', issues_path %>
-
-<script type="text/javascript">
-
-function sendFeed() {
-	//alert('word')
-	FB.ensureInit(function() {
-	var template_stuff = {"images":[{"src":"http://easy311.org/images/logo.gif", "href":"http://easy311.org"}]}; 
-		
-	var body_general = "This should be a description of the issue... "
-	var user_message_prompt = "Lets make DC a better place to live!";
-	var x = FB.Connect.showFeedDialog(91456281023, template_stuff, null, body_general, null, FB.RequireConnect.require, sendIssue());
-	});
-}
-
-function sendIssue() {
-	//alert('sending issue')
-	document.forms[0].submit()	
-}
-</script>
