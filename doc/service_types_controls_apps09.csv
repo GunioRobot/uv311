@@ -88,7 +88,7 @@ ID,ServiceType,ServiceCode,Name,Prompt,Required,Type,Width,ItemList
 52,Abandoned Bicycles,S0021,ABDBIC-AIRINTIRES,Is there air in the tires?,Y,DropDown          ,16,"Yes,No,Don't know"
 52,Abandoned Bicycles,S0021,ABDBIC-RUSTY,Are the chain and other components rusty?,Y,DropDown          ,16,"Yes,No,Don't know"
 52,Abandoned Bicycles,S0021,ABDBIC-DAMAGES,"Is there any other damage to the bicycle (missing or bent wheels, missing seat, and other missing or damaged components)?",N,TextBox           ,200,
-52,Abandoned Bicycles,S0021,ABDBIC-MODELB,Type of Bike,Y,DropDown          ,10,"Children’s,Mountain,Road,Other"
+52,Abandoned Bicycles,S0021,ABDBIC-MODELB,Type of Bike,Y,DropDown          ,10,"Children's,Mountain,Road,Other"
 52,Abandoned Bicycles,S0021,ABDBIC-COLORB,Bike Color,Y,DropDown          ,10,"Black,Blue,Brown,Gold,Green,Grey,Multi,Orange,Red,Silver,Tan,Violet,White,Yellow,Other"
 52,Abandoned Bicycles,S0021,ABDBIC-LOCKED,What is the bike locked to?,N,DropDown          ,10,"Bike Rack,Tree,Planter box,Parking meter,Sign pole,Trash can,Other"
 441,How Am I Driving? (Complaint),HMDCP,HMDCP-PLATENUMBER,What was the license plate number on the vehicle?,Y,TextBox           ,200,
