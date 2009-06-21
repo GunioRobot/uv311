@@ -461,3 +461,34 @@ ul.simple-list.drape li.map {background:#fff url('/images/map.png') no-repeat 10
 .facebox_overlayBG{background-color:#000;z-index:99;}
 * html #facebox_overlay{/* ie6 hack */
 position:absolute;height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight :document.body.offsetHeight + 'px');}
+
+
+
+
+.pagination {
+  text-align: center;
+  padding: .3em; }
+  .pagination a, .pagination span {
+    padding: .2em .5em; }
+  .pagination span.disabled {
+    color: #AAA; }
+  .pagination span.current {
+    font-weight: bold;
+    color: #AF372F; }
+  .pagination a {
+    border: 1px solid #DDDDDD;
+    color: #3572B8;
+    text-decoration: none; }
+    .pagination a:hover, .pagination a:focus {
+      border-color: #003366;
+      background: #3572B8;
+      color: #fff; }
+  .pagination .page_info {
+    color: #aaa;
+    padding-top: .8em; }
+  .pagination .prev_page, .pagination .next_page {
+    border-width: 2px; }
+  .pagination .prev_page {
+    margin-right: 1em; }
+  .pagination .next_page {
+    margin-left: 1em; }

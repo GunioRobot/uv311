@@ -3,8 +3,12 @@ class IssuesController < ApplicationController
 
   def index
 
-    @issues = Issue.find(:all, :order => "created_at DESC")
-
+    @issues = Issue.find(:all, :order => "created_at DESC").paginate(:page => params[:page], :per_page => 10)
+    # @issues = Issue.paginate :page => 1, :order => 'created_at DESC'
+   
+    # @issues = Issue.paginate_by_issue_id  @issue.id, :page => params[:page], :order => 'updated_at DESC',:per_page => 10
+    
+    
     respond_to do |format|
       logger.debug "format:: " + format.to_s
       format.mobile
