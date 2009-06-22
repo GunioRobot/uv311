@@ -45,7 +45,6 @@ function sendToFacebook(desc, img_url) {
 	if (img_url == '/pictures/small/missing.png') {
 		the_url = 'http://easy311.org/images/logo.gif'
 	} else {
-		alert(img_url)
 		the_url = img_url
 	}
 	FB.ensureInit(function() {
