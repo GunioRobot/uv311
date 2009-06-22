@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
 $('#fb_send').live('click',function(){ sendToFacebook.send() })
 
 
-var sendToFacebook={
+sendToFacebook={
   send:function(){
     issue_description=$('#description').html();
     img_url=$('#description').attr('rel');
