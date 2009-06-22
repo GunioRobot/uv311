@@ -1103,6 +1103,27 @@ jQuery(document).ready(function() {
 })
 
 
+$('#fb_send').live('click',function(){ sendToFacebook.send() })
+
+
+sendToFacebook={
+  send:function(){
+    issue_description=$('#description').html();
+    img_url=$('#description').attr('rel');
+    the_url=(img_url == '/pictures/small/missing.png') ? the_url = 'http://easy311.org/images/logo.gif' : img_url;
+
+    FB.ensureInit(function() {
+  	var template_stuff = {"images":[{"src":the_url, "href":"http://easy311.org"}]};
+
+  	var body_general = "Description: " + issue_description
+  	var user_message_prompt = "Lets make DC a better place to live!";
+  	var x = FB.Connect.showFeedDialog(93980376023, template_stuff, null, body_general, null, FB.RequireConnect.require, null);
+  	});
+
+  }
+}
+
+
 
 
 function cl(v){console.log(v)}
