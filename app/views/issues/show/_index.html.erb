@@ -52,7 +52,7 @@ function sendToFacebook(desc, img_url) {
 	
 	var body_general = "Description: " + desc
 	var user_message_prompt = "Lets make DC a better place to live!";
-	var x = FB.Connect.showFeedDialog(93980376023, template_stuff, null, body_general, null, FB.RequireConnect.require, null);
+	var x = FB.Connect.showFeedDialog(93980376023, template_stuff, null, body_general, null, FB.RequireConnect.promptConnect, null);
 	});
 }
 </script>
