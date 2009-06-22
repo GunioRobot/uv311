@@ -8,9 +8,6 @@
     <%= select(:issue,:service_request, @services.collect{|x|  [x.service_type, x.service_code] }, {:include_blank => ''})%>
   </p>
   <%= render :partial => "issues/new/custom_form.html.erb" %>
-<%#= select(:prompt,:id, @attributes.collect{|x|  [x.prompt, x.id] })%>
-
-  <%#= @attributes.collect{|x| x.prompt} %>
   <p>
     <%= f.label :severity %>
     <%= f.select :severity, ["non-emergency", "emergency"] %>
