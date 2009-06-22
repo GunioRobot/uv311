@@ -68,6 +68,12 @@ class IssuesController < ApplicationController
     respond_to do |format|
       if @issue.save
         flash[:notice] = 'Issue was successfully created.'
+        
+        #submit to twitter
+        httpauth = Twitter::HTTPAuth.new('easy311', '!easy311')
+        base = Twitter::Base.new(httpauth)
+        base.update("A new issue has been posted on easy311: http://www.easy311.org/issues/" + @issue.id.to_s)
+        
         format.html { redirect_to(@issue) }
         format.xml  { render :xml => @issue, :status => :created, :location => @issue }
       else

@@ -33,6 +33,7 @@ Rails::Initializer.run do |config|
   config.gem "faker", :version => "0.3.1"
   config.gem "thoughtbot-paperclip", :version => ">=2.2.0", :lib => "paperclip", :source => "http://gems.github.com"
   config.gem "mislav-will_paginate", :version => ">=2.3.7", :lib => 'will_paginate',   :source=> "http://gems.github.com"
+  config.gem "twitter"
   
   
   # Only load the plugins named here, in the order given (default is alphabetical).
