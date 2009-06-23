@@ -1,6 +1,8 @@
 <p class="loud blast">Can't find your issue? Create one, <%= link_to "click here",new_issue_path, :id=>'makeIssue' %></p>
 
-<%= render :partial => "issues/index/issues.html.erb", :locals => {:issue => @issues} %>
+<div id="issues">
+  <%= render :partial => "issues/index/issues.html.erb", :locals => {:issue => @issues} %>
+</div>
 <%= will_paginate @issues %>
 
 

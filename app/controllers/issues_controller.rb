@@ -144,12 +144,17 @@ class IssuesController < ApplicationController
   end
   
   def issues_with_address
+
     logger.debug "The param is::: " + params[:address].to_s
     address = params[:address].to_s
     issue = Issue.new
     @issues = issue.issues_with_address address
     logger.debug "The issues::: " + @issues.inspect
-    return @issues
+    # return @issues
+    respond_to do |format|
+      format.html {render :partial => '/issues/index/issues', :locals=>{:issues => @issues} if request.xhr?}
+    end
+    
   end
   
 end

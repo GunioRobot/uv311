@@ -418,7 +418,7 @@ a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
 #search #issue {width:470px;height:30px;font-size:1.5em;padding:10px 0 0 10px;color:#003975;}
 #search #search_button {padding:10px 0 0 0;}
 #rightcol {background:url(/images/bg_rightcol.png) repeat-x top;margin-top:-200px;min-height:800px;}
-
+#search #issue.load {background:#fff url(/images/ajax-loader.gif) no-repeat 98% 50%}
 
 .issue {padding:10px 0 ;overflow:hidden;}
 .issue h3 {line-height:24px;}

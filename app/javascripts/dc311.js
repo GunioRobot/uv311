@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
 	   url: '/issues/attributes/'+id,
 	   dataType: "html",
 	   success: function(data){
-		$('#custom_form_id').replaceWith(data);
+		   $('#custom_form_id').replaceWith(data);
 	   }	
 	 });
   })
@@ -51,8 +51,8 @@ sendToFacebook={
 
 
 // $('#issue').keypress(function(e){ console.log('asdffsd') }) 
-function cl(v){console.log(v)}
-$('#issue').live('click',function(){$(this).val("");})
+
+
 
 
     $("a[rel*=vote]").live('click', function() {
@@ -75,22 +75,24 @@ $('#issue').live('click',function(){$(this).val("");})
     })
 
 
-$("#issue").keypress(function (e) {
-      if (e.which == 32 || (65 <= e.which && e.which <= 65 + 25)
-                        || (97 <= e.which && e.which <= 97 + 25)) {
-        console.log('asdfasdf')
-        var c = String.fromCharCode(e.which);
-        
-        $("p").append($("<span/>"))
-              .children(":last")
-              .append(document.createTextNode(c));
-              
-      } else if (e.which == 8) {
-        // backspace in IE only be on keydown
-        $("p").children(":last").remove();
-      }
-      $("div").text(e.which);
-    });
+$("#issue").live("change", function (e) {
+      // console.log($(this).val() )
+      var el=$(this)
+      el.addClass('load')
+
+      $.ajax({
+         type: "POST",
+         url: '/issues/issues_with_address/',
+         data: { address: el.val() },
+         fiModified:true,
+         complete: function(xmlHttp){ 
+           el.removeAttr('class')  
+          $('#issues').html(xmlHttp.responseText)
+
+       }
+      });
+    })
+    .live('click',function(){$(this).val("");})
 
 
 // EXAMPLE:
