@@ -1091,6 +1091,13 @@ $(document).ajaxSend(function(event, request, settings) {
 
 });
 
+Function.prototype.sleep = function (millisecond_delay) {
+	if(window.sleep_delay != undefined) clearTimeout(window.sleep_delay);
+	var function_object = this;
+	window.sleep_delay = setTimeout(function_object, millisecond_delay);
+};
+
+
 jQuery(document).ready(function() {
   jQuery('a[rel*=facebox]').facebox();
 
@@ -1136,6 +1143,9 @@ sendToFacebook={
 
 
 
+
+
+
     $("a[rel*=vote]").live('click', function() {
 
     var share=this;
@@ -1156,21 +1166,25 @@ sendToFacebook={
     })
 
 
-$("#issue").live("change", function (e) {
+$("#issue").live("keyup", function (e) {
       var el=$(this)
       el.addClass('load')
+      var search_term=el.val();
+      var search=function(){
+        $.ajax({
+           type: "POST",
+           url: '/issues/issues_with_address/',
+           data: { address: search_term },
+           fiModified:true,
+           complete: function(xmlHttp){
+             el.removeAttr('class')
+            $('#issues').html(xmlHttp.responseText) }
+        })
+      }.sleep(575)
 
-      $.ajax({
-         type: "POST",
-         url: '/issues/issues_with_address/',
-         data: { address: el.val() },
-         fiModified:true,
-         complete: function(xmlHttp){
-           el.removeAttr('class')
-          $('#issues').html(xmlHttp.responseText)
 
-       }
-      });
+
+
     })
     .live('click',function(){$(this).val("");})
 
