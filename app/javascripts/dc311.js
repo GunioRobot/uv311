@@ -1,5 +1,12 @@
 //add your js code here
 
+Function.prototype.sleep = function (millisecond_delay) {
+	if(window.sleep_delay != undefined) clearTimeout(window.sleep_delay);
+	var function_object = this;
+	window.sleep_delay = setTimeout(function_object, millisecond_delay);
+};
+
+
 jQuery(document).ready(function() {
   // jQuery("#issue").autocomplete(autocomplete);
   jQuery('a[rel*=facebox]').facebox();
@@ -39,6 +46,9 @@ sendToFacebook={
   	
   }
 }
+
+
+
  
 
 // sprocketize -I app/javascripts \
@@ -75,25 +85,30 @@ sendToFacebook={
     })
 
 
-$("#issue").live("change", function (e) {
+$("#issue").live("keyup", function (e) {
       // console.log($(this).val() )
       var el=$(this)
       el.addClass('load')
-
-      $.ajax({
-         type: "POST",
-         url: '/issues/issues_with_address/',
-         data: { address: el.val() },
-         fiModified:true,
-         complete: function(xmlHttp){ 
-           el.removeAttr('class')  
-          $('#issues').html(xmlHttp.responseText)
-
-       }
-      });
+      var search_term=el.val();
+      var search=function(){
+        $.ajax({
+           type: "POST",
+           url: '/issues/issues_with_address/',
+           data: { address: search_term },
+           fiModified:true,
+           complete: function(xmlHttp){ 
+             el.removeAttr('class')  
+            $('#issues').html(xmlHttp.responseText) }
+        })
+      }.sleep(575)
+      
+      
+      
+      // .sleep(175)
+        
     })
     .live('click',function(){$(this).val("");})
-
+    
 
 // EXAMPLE:
 // $.ajax({
