@@ -413,7 +413,7 @@ a:hover.voteyes {background-position: 0% -4%;}
 a.red { background:url(/images/default/layout/core/icon_red.png) no-repeat;}
 
 
-#search {background:#003975;}
+#search {background:#003975;min-height:115px;}
 #search label {color:#fff;font-size:2em;line-height:10px;}
 #search #issue {width:470px;height:30px;font-size:1.5em;padding:10px 0 0 10px;color:#003975;}
 #search #search_button {padding:10px 0 0 0;}
