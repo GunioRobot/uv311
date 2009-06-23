@@ -113,4 +113,8 @@ class Issue < ActiveRecord::Base
     #request_fields = DCGOV::Open311.get_request_fields("S0000")
     DCGOV::Open311.submit(:aid => aid, :description => description) if Rails.env == 'production'
   end
+  
+  def issues_with_address(address)
+    @issues = Issue.find(:all, :conditions => ['address LIKE ?', "%#{address}%"])
+  end
 end
