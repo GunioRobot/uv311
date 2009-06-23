@@ -1084,6 +1084,12 @@ var autocomplete = ['Abandoned Bicycles',
 'Vacant Lot',
 'Yard Waste Collection']
 
+$(document).ajaxSend(function(event, request, settings) {
+  if (typeof(AUTH_TOKEN) == "undefined") return;
+  settings.data = settings.data || "";
+  settings.data += (settings.data ? "&" : "") + "authenticity_token=" + encodeURIComponent(AUTH_TOKEN);
+
+});
 
 jQuery(document).ready(function() {
   jQuery('a[rel*=facebox]').facebox();
@@ -1096,7 +1102,7 @@ jQuery(document).ready(function() {
 	   url: '/issues/attributes/'+id,
 	   dataType: "html",
 	   success: function(data){
-		$('#custom_form_id').replaceWith(data);
+		   $('#custom_form_id').replaceWith(data);
 	   }
 	 });
   })
@@ -1126,8 +1132,8 @@ sendToFacebook={
 
 
 
-function cl(v){console.log(v)}
-$('#issue').live('click',function(){$(this).val("");})
+
+
 
 
     $("a[rel*=vote]").live('click', function() {
@@ -1150,21 +1156,23 @@ $('#issue').live('click',function(){$(this).val("");})
     })
 
 
-$("#issue").keypress(function (e) {
-      if (e.which == 32 || (65 <= e.which && e.which <= 65 + 25)
-                        || (97 <= e.which && e.which <= 97 + 25)) {
-        console.log('asdfasdf')
-        var c = String.fromCharCode(e.which);
+$("#issue").live("change", function (e) {
+      var el=$(this)
+      el.addClass('load')
 
-        $("p").append($("<span/>"))
-              .children(":last")
-              .append(document.createTextNode(c));
+      $.ajax({
+         type: "POST",
+         url: '/issues/issues_with_address/',
+         data: { address: el.val() },
+         fiModified:true,
+         complete: function(xmlHttp){
+           el.removeAttr('class')
+          $('#issues').html(xmlHttp.responseText)
 
-      } else if (e.which == 8) {
-        $("p").children(":last").remove();
-      }
-      $("div").text(e.which);
-    });
+       }
+      });
+    })
+    .live('click',function(){$(this).val("");})
 
 
 
