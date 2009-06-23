@@ -75,7 +75,7 @@ sendToFacebook={
     })
 
 
-$("#issue").live("keypress", function (e) {
+$("#issue").live("change", function (e) {
       // console.log($(this).val() )
       var el=$(this)
       el.addClass('load')

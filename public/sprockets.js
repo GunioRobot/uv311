@@ -1156,7 +1156,7 @@ sendToFacebook={
     })
 
 
-$("#issue").live("keypress", function (e) {
+$("#issue").live("change", function (e) {
       var el=$(this)
       el.addClass('load')
 
