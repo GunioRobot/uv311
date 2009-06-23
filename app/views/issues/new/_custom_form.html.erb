@@ -2,14 +2,22 @@
   <% @attributes.each_with_index do |a, i| -%>	
 	<% if a.attribute_type.strip.eql?("DropDown") -%>
   		<p>
-    	<%= label :issue, "srv_attributes_select_#{i}", a.prompt -%>
+		<% if a.required -%>
+    		<%= label :issue, "srv_attributes_select_#{i}", a.prompt, {:class => "required"} -%>
+		<% else -%>
+    		<%= label :issue, "srv_attributes_select_#{i}", a.prompt -%>
+		<% end %>
     	<%= select_tag( "issue[srv_attributes][field_#{i}]", 
 						options_for_select(a.item_list.split(",").collect{|x| x.strip}), 
 						{:name => "issue[srv_attributes][field_#{i}]", :id =>"srv_attributes_select_#{i}" }) -%>
   		</p>
     <% elsif a.attribute_type.strip.eql?("TextBox") -%>
   		<p>
-		<%= label :issue, "srv_attributes_field_#{i}", a.prompt -%>
+		<% if a.required -%>
+    		<%= label :issue, "srv_attributes_select_#{i}", a.prompt, {:class => "required"} -%>
+		<% else -%>
+    		<%= label :issue, "srv_attributes_select_#{i}", a.prompt -%>
+		<% end %>
 		<%= text_field_tag "issue[srv_attributes][field_#{i}]", '', {:name => "issue[srv_attributes][field_#{i}]", :size => 50, :maxlength => a.width} -%>
   		</p>
 	<% end -%>

@@ -1,2 +1,19 @@
-Select a type:
+<div class="span-24 pup">
+  <%= link_to '<img src="/images/logo.gif"/>', root_path %>
+</div>
+<br>
+Select a service type:
+<br>
 <%= select(:type,:id, @services.collect{|x|  [x.service_type, x.service_code] }, {:include_blank => ''})%>
+<p>
+Severity:<br><input type="text"/>
+</p>
+<p>
+Address:<br><input type="text"/>
+</p>
+<p>
+Title:<br><input type="text"/>
+</p>
+<p>
+Description:<br><textarea/>
+</p>
