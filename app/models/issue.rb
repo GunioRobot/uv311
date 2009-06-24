@@ -115,6 +115,6 @@ class Issue < ActiveRecord::Base
   end
   
   def issues_with_address(address)
-    @issues = Issue.find(:all, :conditions => ['address LIKE ? OR title LIKE ?', "%#{address}%", "%#{address}%"])
+    @issues = Issue.find(:all, :conditions => ['address LIKE lower(?) OR title LIKE lower(?)', "%#{address}%", "%#{address}%"])
   end
 end
