@@ -1,26 +1,6 @@
-#uv311, #uv311 input[type="text"] {
-  width: 200000px;
-  padding: 5px;
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+div #uv311 {
+	background:url(/images/easy311_tab_small.png);
+	width: 67px;
+	height: 395px;
 }
 
-#uv311prompt {
-  position: absolute;
-  width: 33%;
-  margin-left: 33%;
-  top: 20%;
-  background-color: black;
-  color: white;
-  padding: 20px;
-  opacity: .85;
-}
-
-#uv311prompt input[type='text'] {
-  width: 200px;
-  font-size: 15px;
-  font-weight: bolder;
-}
-
-#title {
-	color: red;
-}
