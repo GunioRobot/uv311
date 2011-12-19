@@ -4,12 +4,12 @@
   </div>
   <div class="span-12  last">
     <div class="bupl"><img src="/images/dc_logo.gif"/></div>
-   <% if current_user %>  
-     <%= link_to "Logout", logout_path, :class => 'medium' %>  
-   <% else %>  
+   <% if current_user %>
+     <%= link_to "Logout", logout_path, :class => 'medium' %>
+   <% else %>
      <div class="">
-     <%= link_to "Register", new_user_path, :class => 'medium' %> | 
+     <%= link_to "Register", new_user_path, :class => 'medium' %> |
      <%= link_to "Login", login_path, :class => 'medium' %>  </div>
-   <% end %>  
+   <% end %>
   </div>
 </div>

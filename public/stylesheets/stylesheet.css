@@ -1,12 +1,12 @@
 /** HEADER STYLES ***//*
-    
+
   == STRUCTURE: ========================
    * Page width:            940 px
    * Number of columns:     38
    * Column width:          15 px
    * Margin width:          10 px
   ======================================
-   
+
 */
 
 /* reset.css */
@@ -85,7 +85,7 @@ caption {background:#eee;}
 .pupl {padding-top:15px;}
 .bupl {padding-bottom:15px;}
 .pupll {padding-top:10px;}
-  
+
 .suggestion > div:first-child { display: block; }
 .suggestion h4 { color:#fff;}
 .suggestion a:link,.suggestion a:visited, .suggestion a:hover, .suggestion a:active{color:#fff;}
@@ -95,8 +95,8 @@ caption {background:#eee;}
 .text-right {text-align:right;}
 .text-center {text-align:center;}
 .text-green {color: green;}
-.text-red {color: red;} 
-.text-white {color: white;} 
+.text-red {color: red;}
+.text-white {color: white;}
 #company-logo {background:#fff;padding:10px;text-align:center;margin:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
 
 /*simple list- positions, view_sheet */
@@ -256,7 +256,7 @@ div.border {padding-right:4px;margin-right:5px;border-right: 1px solid #eee;}
 /* Border with more whitespace, spans one column. */
 div.colborder {padding-right:13px;margin-right:10px;border-right: 1px solid #eee;}
 
-/* Use these classes on an element to push it into the 
+/* Use these classes on an element to push it into the
    next column, or to pull it into the previous column.  */
 
 .pull-1 { margin-left: -25px;}

@@ -5,10 +5,10 @@ class IssuesController < ApplicationController
 
     @issues = Issue.find(:all, :order => "created_at DESC").paginate(:page => params[:page], :per_page => 10)
     # @issues = Issue.paginate :page => 1, :order => 'created_at DESC'
-   
+
     # @issues = Issue.paginate_by_issue_id  @issue.id, :page => params[:page], :order => 'updated_at DESC',:per_page => 10
-    
-    
+
+
     respond_to do |format|
       logger.debug "format:: " + format.to_s
       format.mobile
@@ -22,7 +22,7 @@ class IssuesController < ApplicationController
       format.html # show.html.erb
     end
   end
-  
+
   # GET /issues/1
   # GET /issues/1.xml
   def show
@@ -41,11 +41,11 @@ class IssuesController < ApplicationController
   def new
     @services = ServiceType.all
     @attributes = ServiceTypeAttribute.find_all_by_service_type_id(1, :conditions => ["attribute_type<>''"])
-    
+
     @attributes.each do |s|
       logger.debug "ONE::: " +s.inspect
     end
-    
+
     @issue = Issue.new
 
     respond_to do |format|
@@ -53,7 +53,7 @@ class IssuesController < ApplicationController
       format.mobile
     end
   end
-  
+
   def attributes
     @attributes = ServiceTypeAttribute.find_all_by_service_code(params[:id], :conditions => ["attribute_type<>''"])
     respond_to do |format|
@@ -61,19 +61,19 @@ class IssuesController < ApplicationController
         format.js { render :partial => "issues/new/custom_form.html.erb"}
     end
   end
-  
+
   def create
     @issue = Issue.new(params[:issue])
 
     respond_to do |format|
       if @issue.save
         flash[:notice] = 'Issue was successfully created.'
-        
+
         #submit to twitter
         httpauth = Twitter::HTTPAuth.new('easy311', '!easy311')
         base = Twitter::Base.new(httpauth)
         base.update("A new issue has been posted on easy311: http://www.easy311.org/issues/" + @issue.id.to_s)
-        
+
         format.html { redirect_to(@issue) }
         format.xml  { render :xml => @issue, :status => :created, :location => @issue }
       else
@@ -110,7 +110,7 @@ class IssuesController < ApplicationController
       format.xml  { head :ok }
     end
   end
-  
+
   def vote
      @issue=Issue.find_by_id(params[:id])
      firstcount= @issue.votes.count
@@ -118,12 +118,12 @@ class IssuesController < ApplicationController
        Vote.find_or_create_by_issue_id_and_user_id(params[:id], current_user.id)
        # raise @issue.votes.count.to_yaml
        count= @issue.votes.count
-       status=count>firstcount ? 202 :200        
+       status=count>firstcount ? 202 :200
      else
        #No issue found
        return false
      end
-  
+
 
      respond_to do |format|
        if count
@@ -132,17 +132,17 @@ class IssuesController < ApplicationController
          format.xml  { head :ok }
        end
      end
-     
+
     # format.json  { render :json => @asset.to_json(:include => :subject, :methods => :icon_for), :status => status }
   end
-  
+
   def show
     @issue = Issue.find(params[:id])
     @comments = Comment.find(:all, :conditions => ["issue_id = ?", @issue.id], :order => "created_at DESC")
     @comment = Comment.new
     @comment.issue_id = @issue.id
   end
-  
+
   def issues_with_address
 
     logger.debug "The param is::: " + params[:address].to_s
@@ -154,7 +154,7 @@ class IssuesController < ApplicationController
     respond_to do |format|
       format.html {render :partial => '/issues/index/issues', :locals=>{:issues => @issues} if request.xhr?}
     end
-    
+
   end
-  
+
 end

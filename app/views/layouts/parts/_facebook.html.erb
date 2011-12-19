@@ -1,6 +1,6 @@
 <div class="white">
-  <div id="user"></div>  
-  <fb:login-button size="medium" background="white" length="long" onlogin="update_user_box();"></fb:login-button> 
+  <div id="user"></div>
+  <fb:login-button size="medium" background="white" length="long" onlogin="update_user_box();"></fb:login-button>
 </div>
 
 <script type="text/javascript">
@@ -15,9 +15,9 @@ function update_user_box() {
     + "Welcome, <fb:name uid=loggedinuser useyou=false></fb:name>. You are signed in with your Facebook account."
     + "</span>";
 
-  // because this is XFBML, we need to tell Facebook to re-process the document 
+  // because this is XFBML, we need to tell Facebook to re-process the document
   FB.XFBML.Host.parseDomTree();
-  
+
 }
 </script>
 <script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php"></script>

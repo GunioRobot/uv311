@@ -1,5 +1,5 @@
 <div id ="custom_form_id">
-  <% @attributes.each_with_index do |a, i| -%>	
+  <% @attributes.each_with_index do |a, i| -%>
 	<% if a.attribute_type.strip.eql?("DropDown") -%>
   		<p>
 		<% if a.required -%>
@@ -7,8 +7,8 @@
 		<% else -%>
     		<%= label :issue, "srv_attributes_select_#{i}", a.prompt -%>
 		<% end %>
-    	<%= select_tag( "issue[srv_attributes][field_#{i}]", 
-						options_for_select(a.item_list.split(",").collect{|x| x.strip}), 
+    	<%= select_tag( "issue[srv_attributes][field_#{i}]",
+						options_for_select(a.item_list.split(",").collect{|x| x.strip}),
 						{:name => "issue[srv_attributes][field_#{i}]", :id =>"srv_attributes_select_#{i}" }) -%>
   		</p>
     <% elsif a.attribute_type.strip.eql?("TextBox") -%>

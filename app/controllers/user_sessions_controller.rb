@@ -23,12 +23,12 @@ class UserSessionsController < ApplicationController
         format.xml  { render :xml => @user_session.errors, :status => :unprocessable_entity }
       end
     end
-  end  
+  end
 
   # DELETE /user_sessions/1
   # DELETE /user_sessions/1.xml
   def destroy
-    @user_session = UserSession.find  
+    @user_session = UserSession.find
     @user_session.destroy
     flash[:notice] = "Logout successful!"
     redirect_to root_url

@@ -7,12 +7,12 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   helper_method :current_user_session, :current_user
   include IsItMobile::ForRails
-  
-  
+
+
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
-  
-  
+
+
   # use it like this in controllers:
   #     before_filter :adjust_format_for_mobile, :only => ["show", "index"]
   #
@@ -39,7 +39,7 @@ private
       return false
     end
   end
-  
+
   def require_user?
     if current_user.nil?
       flash[:notice] = "You must be logged in to access this page"
@@ -47,6 +47,6 @@ private
       return false
     end
   end
-  
-  
+
+
 end

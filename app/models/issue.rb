@@ -78,7 +78,7 @@ class Issue < ActiveRecord::Base
   belongs_to :service_type, :class_name => 'ServiceType', :foreign_key => 'service_type_id'
   has_many :comments
   has_many :votes, :class_name => 'Vote'
-  
+
   has_attached_file :picture,
   :styles => {
       :thumb=> "100x100>",
@@ -88,7 +88,7 @@ class Issue < ActiveRecord::Base
       :storage => :s3,
       :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
       :path => ":attachment/:id/:style.:extension",
-      :bucket => 'easy311'      
+      :bucket => 'easy311'
   # has_attached_file :photo, :styles => { :small => "150x150>" },
   #                   :url  => "/assets/products/:id/:style/:basename.:extension",
   #                   :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
@@ -96,24 +96,24 @@ class Issue < ActiveRecord::Base
 #  validates_attachment_presence :picture
 #  validates_attachment_size :picture, :less_than => 1.megabyte
 
-  
-  
+
+
   after_create :submit_issue
 
   def srv_attributes
     @atts
   end
-  
+
   def srv_attributes=(atts)
     @atts
-  end  
+  end
 
   def submit_issue
     # can use code below to get the fields for the issue. need to figure out how to get the service_code
     #request_fields = DCGOV::Open311.get_request_fields("S0000")
     DCGOV::Open311.submit(:aid => aid, :description => description) if Rails.env == 'production'
   end
-  
+
   def issues_with_address(address)
     @issues = Issue.find(:all, :conditions => ['address ILIKE ? OR title ILIKE ?', "%#{address}%", "%#{address}%"])
   end

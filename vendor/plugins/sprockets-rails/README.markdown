@@ -21,7 +21,7 @@ Here's a walkthrough of the installation process:
 
         ActionController::Routing::Routes.draw do |map|
           # Add the following line:
-          SprocketsApplication.routes(map) 
+          SprocketsApplication.routes(map)
           ...
         end
 

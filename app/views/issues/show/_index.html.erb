@@ -8,14 +8,14 @@
   <p id="description" rel="<%= @issue.picture.url(:small) %>">
     <%=h @issue.description %>
   </p>
-	<%= image_tag(@issue.picture.url(:small)) %>	
+	<%= image_tag(@issue.picture.url(:small)) %>
   </div>
 </div>
 
 <div id="new_comment">
 <h2>Add a comment:</h2>
 
-<% form_for(@comment) do |f| %>  
+<% form_for(@comment) do |f| %>
   <%= f.hidden_field :issue_id %>
   <%= f.label :author, 'Your Name' %>
   <%= f.text_field :author %>

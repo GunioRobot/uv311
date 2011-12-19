@@ -1,5 +1,5 @@
 class ChangeIssuesTable < ActiveRecord::Migration
-  def self.up  
+  def self.up
     add_column :issues, :status, :string
   end
 

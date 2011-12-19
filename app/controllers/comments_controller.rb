@@ -7,7 +7,7 @@ class CommentsController < ApplicationController
     else
       flash[:notice] = "Oops! Something went wrong."
     end
-    redirect_to :controller => :issues, :action => :show, :id => @comment.issue_id    
+    redirect_to :controller => :issues, :action => :show, :id => @comment.issue_id
   end
-  
+
 end

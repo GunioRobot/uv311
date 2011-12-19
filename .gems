@@ -1,7 +1,7 @@
-hpricot --version 0.8.1 
+hpricot --version 0.8.1
 authlogic --version 2.0.13 --source "http://gems.rubyforge.org"
 dambalah-dcgov --version 0.0.2 --source "http://gems.github.com"
-simple-rss --version 1.2 
+simple-rss --version 1.2
 sprockets --version 1.0.2
 faker --version 0.3.1
 is_it_mobile --version 1.0.1 --source "http://gems.rubyforge.org"

@@ -4,7 +4,7 @@ namespace :sprockets do
     require "config/environment"
     SprocketsApplication.install_script
   end
-  
+
   desc "Install any assets provided by Sprockets scripts"
   task :install_assets do
     require "config/environment"

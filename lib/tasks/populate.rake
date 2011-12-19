@@ -26,17 +26,17 @@
 #  string            :string(255)     default(""), not null
 require 'faker'
 
-namespace :db do    
+namespace :db do
   desc "Erase and fill database"
   task :populate => :environment do
 
     [Issue, Comment,ServiceType].each(&:delete_all)
-    
+
     user = User.new
     user.email = Faker::Internet.email
     user.login_count = rand()
-    user.save        
-    
+    user.save
+
     (1..20).each do |index|
       issue = Issue.new
       issue.title = Faker::Lorem.sentence
@@ -44,7 +44,7 @@ namespace :db do
       issue.address = Faker::Address.street_address(true)
       issue.description = Faker::Lorem.paragraph
       issue.save
-      
+
       (1..5).each do |i|
         comment = Comment.new
         comment.user_id = user.id
@@ -53,7 +53,7 @@ namespace :db do
         comment.body = Faker::Lorem.paragraph
         comment.save
       end
-    end 
+    end
 
   end
 end

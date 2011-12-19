@@ -58,7 +58,7 @@ class AlterTableIssuesAddColumns < ActiveRecord::Migration
     add_column :issues, :hotspot2004name, :string
     add_column :issues, :lat, :float
     add_column :issues, :long, :float
-    add_column :issues, :point, :string    
+    add_column :issues, :point, :string
   end
 
   def self.down
@@ -115,59 +115,59 @@ class AlterTableIssuesAddColumns < ActiveRecord::Migration
     remove_column :issues, :point
   end
 end
-# <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">        
-#   <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2162632">          
-#     <dc:date>2009-06-18T03:01:43-04:00</dc:date>          
-#     <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />          
-#     <dc:title>dcst:ServiceRequest</dc:title>          
-#     <dc:subject>ServiceRequest ID:2162632</dc:subject>          
-#     <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>          
-#     <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>          
-#     <dc:format>text/xml</dc:format>          
-#     <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2162632</dc:identifier>          
-#     <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>          
-#     <dc:language>en</dc:language>          
-#     <dc:coverage>District of Columbia</dc:coverage>          
-#     <dc:rights>public domain</dc:rights>          
-#     <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>          
-#     <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>          
+# <dcst:ServiceRequest xmlns:dcst="http://dc.gov/dcstat/types/1.0/">
+#   <rdf:Description rdf:about="http://dc.gov/dcstat/types/1.0/ServiceRequest#2162632">
+#     <dc:date>2009-06-18T03:01:43-04:00</dc:date>
+#     <rdf:type rdf:resource="http://dc.gov/dcstat/types/1.0/ServiceRequest" />
+#     <dc:title>dcst:ServiceRequest</dc:title>
+#     <dc:subject>ServiceRequest ID:2162632</dc:subject>
+#     <dc:description>Service requests placed at the District of Columbia's Mayor's Call Center and through the Service Request Center website. Includes service request order details.</dc:description>
+#     <dc:type>http://dc.gov/dcstat/types/1.0/ServiceRequest</dc:type>
+#     <dc:format>text/xml</dc:format>
+#     <dc:identifier>http://dc.gov/dcstat/types/1.0/ServiceRequest#2162632</dc:identifier>
+#     <dc:source>http://dc.gov/dcstat/datasets/src</dc:source>
+#     <dc:language>en</dc:language>
+#     <dc:coverage>District of Columbia</dc:coverage>
+#     <dc:rights>public domain</dc:rights>
+#     <dcterms:accessRights>http://dc.gov/dcstat/accessrights/Public</dcterms:accessRights>
+#     <dcterms:accrualMethod>Hansen/SRC interface</dcterms:accrualMethod>
 #     <!--  accrual periodicity is in seconds units --><dcterms:accrualPeriodicity>3600</dcterms:accrualPeriodicity>
-#     <dcterms:modified>2009-06-18T03:01:43-04:00</dcterms:modified>        
-#   </rdf:Description>        
-#   <dcst:servicerequestid>2162632</dcst:servicerequestid>        
-#   <dcst:servicepriority>NO VALUE ASSIGNED</dcst:servicepriority>        
-#   <dcst:servicecode>S05SL</dcst:servicecode>        
-#   <dcst:servicecodedescription>STREETLIGHT REPAIR</dcst:servicecodedescription>        
-#   <dcst:servicetypecode>S&AL</dcst:servicetypecode>        
+#     <dcterms:modified>2009-06-18T03:01:43-04:00</dcterms:modified>
+#   </rdf:Description>
+#   <dcst:servicerequestid>2162632</dcst:servicerequestid>
+#   <dcst:servicepriority>NO VALUE ASSIGNED</dcst:servicepriority>
+#   <dcst:servicecode>S05SL</dcst:servicecode>
+#   <dcst:servicecodedescription>STREETLIGHT REPAIR</dcst:servicecodedescription>
+#   <dcst:servicetypecode>S&AL</dcst:servicetypecode>
 #   <dcst:servicetypecodedescription>STREET & ALLEY LIGHTS</dcst:servicetypecodedescription>
-#   <dcst:serviceorderdate>2009-06-18T02:36:33-04:00</dcst:serviceorderdate>        
-#   <dcst:serviceorderstatus>OPEN</dcst:serviceorderstatus>        
-#   <dcst:servicecallcount>1</dcst:servicecallcount>        
-#   <dcst:agencyabbreviation>DDOT</dcst:agencyabbreviation>        
-#   <dcst:inspectionflag>N</dcst:inspectionflag>        
-#   <dcst:inspectiondate></dcst:inspectiondate>        
-#   <dcst:resolution>NO VALUE ASSIGNED</dcst:resolution>        
-#   <dcst:resolutiondate></dcst:resolutiondate>        
-#   <dcst:serviceduedate>2009-06-29T02:36:33-04:00</dcst:serviceduedate>        
-#   <dcst:servicenotes></dcst:servicenotes>        
-#   <dcst:parentservicerequestid>0</dcst:parentservicerequestid>        
-#   <dcst:adddate>2009-06-18T02:36:33-04:00</dcst:adddate>        
-#   <dcst:lastmodifieddate>2009-06-18T02:40:03-04:00</dcst:lastmodifieddate>        
-#   <dcst:siteaddress></dcst:siteaddress>        
-#   <dcst:zipcode></dcst:zipcode>        
-#   <dcst:maraddressrepositoryid>-100</dcst:maraddressrepositoryid>        
-#   <dcst:dcstataddresskey>-100</dcst:dcstataddresskey>        
-#   <dcst:dcstatlocationkey>348291</dcst:dcstatlocationkey>        
-#   <dcst:ward>NONE</dcst:ward>        
-#   <dcst:anc>NONE</dcst:anc>        
-#   <dcst:smd>NONE</dcst:smd>        
-#   <dcst:district>NONE</dcst:district>        
-#   <dcst:psa>NONE</dcst:psa>        
-#   <dcst:neighborhoodcluster>NONE</dcst:neighborhoodcluster>        
-#   <dcst:hotspot2006name>NONE</dcst:hotspot2006name>        
-#   <dcst:hotspot2005name>NONE</dcst:hotspot2005name>        
-#   <dcst:hotspot2004name>NONE</dcst:hotspot2004name>        
-#   <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:lat>        
-#   <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:long>        
-#   <georss:point xmlns:georss="http://www.georss.org/georss">0 0</georss:point>      
+#   <dcst:serviceorderdate>2009-06-18T02:36:33-04:00</dcst:serviceorderdate>
+#   <dcst:serviceorderstatus>OPEN</dcst:serviceorderstatus>
+#   <dcst:servicecallcount>1</dcst:servicecallcount>
+#   <dcst:agencyabbreviation>DDOT</dcst:agencyabbreviation>
+#   <dcst:inspectionflag>N</dcst:inspectionflag>
+#   <dcst:inspectiondate></dcst:inspectiondate>
+#   <dcst:resolution>NO VALUE ASSIGNED</dcst:resolution>
+#   <dcst:resolutiondate></dcst:resolutiondate>
+#   <dcst:serviceduedate>2009-06-29T02:36:33-04:00</dcst:serviceduedate>
+#   <dcst:servicenotes></dcst:servicenotes>
+#   <dcst:parentservicerequestid>0</dcst:parentservicerequestid>
+#   <dcst:adddate>2009-06-18T02:36:33-04:00</dcst:adddate>
+#   <dcst:lastmodifieddate>2009-06-18T02:40:03-04:00</dcst:lastmodifieddate>
+#   <dcst:siteaddress></dcst:siteaddress>
+#   <dcst:zipcode></dcst:zipcode>
+#   <dcst:maraddressrepositoryid>-100</dcst:maraddressrepositoryid>
+#   <dcst:dcstataddresskey>-100</dcst:dcstataddresskey>
+#   <dcst:dcstatlocationkey>348291</dcst:dcstatlocationkey>
+#   <dcst:ward>NONE</dcst:ward>
+#   <dcst:anc>NONE</dcst:anc>
+#   <dcst:smd>NONE</dcst:smd>
+#   <dcst:district>NONE</dcst:district>
+#   <dcst:psa>NONE</dcst:psa>
+#   <dcst:neighborhoodcluster>NONE</dcst:neighborhoodcluster>
+#   <dcst:hotspot2006name>NONE</dcst:hotspot2006name>
+#   <dcst:hotspot2005name>NONE</dcst:hotspot2005name>
+#   <dcst:hotspot2004name>NONE</dcst:hotspot2004name>
+#   <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:lat>
+#   <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">0</geo:long>
+#   <georss:point xmlns:georss="http://www.georss.org/georss">0 0</georss:point>
 # </dcst:ServiceRequest>

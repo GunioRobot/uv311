@@ -3,15 +3,15 @@ module SprocketsApplication
     def routes(map)
       map.resource(:sprockets)
     end
-    
+
     def source
       concatenation.to_s
     end
-    
+
     def install_script
       concatenation.save_to(asset_path)
     end
-    
+
     def install_assets
       secretary.install_assets
     end
@@ -20,7 +20,7 @@ module SprocketsApplication
       def secretary
         @secretary ||= Sprockets::Secretary.new(configuration.merge(:root => RAILS_ROOT))
       end
-    
+
       def configuration
         YAML.load(IO.read(File.join(RAILS_ROOT, "config", "sprockets.yml"))) || {}
       end
@@ -35,9 +35,9 @@ module SprocketsApplication
       end
 
       def source_is_unchanged?
-        previous_source_last_modified, @source_last_modified = 
+        previous_source_last_modified, @source_last_modified =
           @source_last_modified, secretary.source_last_modified
-          
+
         previous_source_last_modified == @source_last_modified
       end
   end
